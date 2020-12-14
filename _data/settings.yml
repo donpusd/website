@@ -1,0 +1,318 @@
+#-------------------------------
+# General Site Settings
+
+title: DON PUSD
+logo: 
+author: Aditya Mavalankar
+description: Diversify Our Narrative PUSD
+email: hello@donpusd.org
+copyright: Copyright &copy; Diversify Our Narrative PUSD. Designed with ❤️ in San Diego.
+
+menu:
+- {name: About Us, link: '/about'}
+- {name: Blogs & Events, link: '/blog'}
+- {name: School Clubs, link: '/school-clubs'}
+- {name: Contact, link: '/contact'}
+- {name: Join Us, link: '/portfolio'}
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: UA-173623433-1
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Diversify Our Narrative
+  hero-subtitle: Poway Unified
+
+social:
+- {icon: "ti-facebook", link: "https://www.facebook.com/DiversifyPUSD/"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/Diversifyournarrativepusd/"}
+- {icon: "ti-twitter", link: "https://www.twitter.com/DiversifyPUSD/"}
+- {icon: "ti-email", link: "mailto:hello@donpusd.org"}
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  "We strive to inspire anti-racist ideals in PUSD through diversified curriculum."
+
+mission: "Our mission is to fight to be anti-racist, and encourage a productive dialogue on race and identity within PUSD through the inclusion of racially diverse, anti-racist cirriculum; to promote open-mindedness within the classroom by incorporating diverse viewpoints."
+
+blurb-btn-link: '/about'
+blurb-btn-name: Join Our Mission Today!
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Form Subcommittees"
+    icon : "ti-comments"
+    content : "We have three subcommittees: outreach, curriculum literature, and AP courses. In each committee you get to work on projects firsthand!"
+    
+  - title : "Work with Schools"
+    icon : "ti-blackboard"
+    content : "We collaborate with the district, alongside clubs formed at each major PUSD high school. Together, we make an impact."
+    
+  - title : "Social Media"
+    icon : "ti-instagram"
+    content : "To maximize our impact and ensure our message of educational equity can be successful, we share and publicize everything we do."
+
+
+# My Team Section
+team:
+  - title : "Tamara Alsaied"
+    school: "MCHS '22"
+    image : "assets/images/team/member-1.png"
+    position : "Co-President"
+    
+  - title : "Jessica Malvin"
+    school: "MCHS '22"
+    image : "assets/images/team/member-2.png"
+    position : "Co-President"
+    
+  - title : "Aditya Mavalankar"
+    school: "RBHS '21"
+    image : "assets/images/team/member-3.png"
+    position : "Director of Finances"
+
+  - title : "Inbar Schwartz"
+    school: "ABHS"
+    image : "assets/images/team/member-3.png"
+    position : "Director of Outreach"
+
+  - title : "Katie Schwenker"
+    school: "ABHS"
+    image : "assets/images/team/member-2.png"
+    position : "Executive Secretary"
+    
+  - title : "Sonia Somasundaram"
+    school: "ABHS"
+    image : "assets/images/team/member-3.png"
+    position : "Director of Academics"
+
+  - title : "Claire Chung"
+    school: "RBHS '21"
+    image : "assets/images/team/member-3.png"
+    position : "Director of Logistics"
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Our Goals
+services:
+- {
+    name: Diverse Novels,
+    icon: ti-book,
+    description: 'Our core goal: we want to bring diverse perspectives to the classroom by incorporating diverse texts, primarily.',
+    active: true # Add true to select section
+  }
+- {
+    name: Student Advocates,
+    icon: ti-pencil,
+    description: 'Our club constitutes students from around the district. Our goal is to form the next generation of student activists and advocates.',
+    active: true # Add true to select section
+  }
+- {
+    name: Community Connections,
+    icon: ti-rocket,
+    description: 'We partner with other social organizations, like Black Student Union, to maximize our impacts.',
+    active: true # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "UI/UX Design",
+    type : "design"
+  }
+- {
+    title : "BRANDING",
+    type : "branding"
+  }
+- {
+    title : "ILLUSTRATION",
+    type : "illustration"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CEO, Funder"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: hello@donpusd.org

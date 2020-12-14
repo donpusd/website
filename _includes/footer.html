@@ -1,0 +1,21 @@
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="border-top text-center border-dark py-5">
+      <!-- social icon -->
+      {% for social in site.data.settings.social %}
+        <a href="{{ social.link }}" class="btn btn-transparent-white"><i class="{{ social.icon }}"></i></a>
+      {% endfor %}
+      <!-- /social icon -->
+    <p class="mb-3 text-white">{{site.data.settings.copyright}}</p>
+  </div>
+</footer>
+<!-- /footer -->
+
+
+<!-- JS Plugins -->
+{% for js in site.data.plugins.js %}
+<script src="{{ js | relative_url }}"></script>
+{% endfor %}
+
+<!-- Main Script -->
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>

@@ -1,0 +1,25 @@
+{% if site.data.settings.team %}
+<!-- team -->
+<section class="section bg-green-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Meet the Team</h2>
+      </div>
+      {% for team-member in site.data.settings.team %}
+      <div class="col-md-4 col-sm-5 mb-3 mb-md-0 p-2">
+        <div class="card h-100 text-center">
+          <img src="{{ team-member.image | relative_url }}" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title"><strong>{{ team-member.title }}</strong></h4>
+            <h5 class="text-light font-secondary">{{ team-member.position }}</h5>
+            <h5 class="text-light font-secondary">{{ team-member.school }}</h5>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /team -->
+{% endif %}

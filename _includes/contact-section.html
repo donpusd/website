@@ -1,0 +1,17 @@
+<!-- contact -->
+<section class="section" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.contact-title }}</h2>
+        <h3 class="section-title">You can reach out to us through our many platforms! See below for all the links!</h3>
+        {% for social in site.data.settings.social %}
+            <a href="{{ social.link }}" class="btn btn-primary"><i class="{{ social.icon }}"></i></a>
+        {% endfor %}
+        
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
