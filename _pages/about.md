@@ -4,7 +4,9 @@ title: About Us
 author: Aditya Mavalankar
 ---
 
-At DON PUSD, we are a district-wide movement with the goal of causing change in our high schools and middle schools, along with creating lasting impacts throughout the San Diego-area. In our local chapter, we have several key goals:
+<h4 class="section-title mb-5 mt-4">At DON PUSD, we are a district-wide movement with the goal of enacting change in our high schools and middle schools, along with creating lasting impacts throughout the San Diego-area. In our local chapter, we have several key goals:</h4>
+
+
 
  > **A) Awareness:** Increase awareness among students and faculty about the harms of racism, homophobia, and other forms of prejudice and microagressions.
 
