@@ -13,16 +13,19 @@
     </button>
 
     <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto align-items-center">
         <li class="nav-item">
           <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
         </li>
         {% for link in site.data.settings.menu %}
           <li class="nav-item {{ class }}">
-            <a class="nav-link" href="{{ site.baseurl }}{{ link.link }}">{{ link.name }}</a>
+            <a class="nav-link" href="{{ link.link | relative_url }}">{{ link.name }}</a>
             
           </li>
         {% endfor %}
+        <li class="nav-item-main">
+            <a class="nav-link-main" href="{{ site.data.settings.blurb-btn-link }}" target="_blank">Join</a>
+        </li>
       </ul>
     </div>
   </nav>

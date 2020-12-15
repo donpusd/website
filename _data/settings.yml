@@ -13,7 +13,6 @@ menu:
 - {name: Blogs & Events, link: '/blog'}
 - {name: School Clubs, link: '/school-clubs'}
 - {name: Contact, link: '/contact'}
-- {name: Join Us, link: '/portfolio'}
 
 #-------------------------------
 # Google Analytics Section
@@ -54,8 +53,9 @@ blurb:
 
 mission: "Our mission is to fight to be anti-racist, and encourage a productive dialogue on race and identity within PUSD through the inclusion of racially diverse, anti-racist cirriculum; to promote open-mindedness within the classroom by incorporating diverse viewpoints."
 
-blurb-btn-link: '/about'
-blurb-btn-name: Join Our Mission Today!
+blurb-btn-link: https://join.donpusd.org
+blurb-btn-name: Join Today!
+
 
 
 # About Page
@@ -122,7 +122,45 @@ skills:
 - {name: After Effects, color: '#bdecf6', value: '80%'}
 - {name: Web App, color: '#ffbcaa', value: '70%'}
 
+#-------------------------------
+# School Clubs Section
 
+rb-lead: "Gabby Le & Aditya Mavalankar"
+rb-contact: "mailto:email@email.com"
+rb-zoom-date: "Every Wednesday During Lunch"
+rb-zoom-id: "123-4567-8901"
+rb-zoom-pw: "password"
+rb-zoom-url: "https://example.com"
+
+mc-lead: "Tamara Alsaied & Jessica Malvin"
+mc-contact: "email@email.com"
+mc-zoom-date: "Every Other Tuesday During Lunch"
+mc-zoom-id: "123-4567-8901"
+mc-zoom-pw: "password"
+mc-zoom-url: "https://example.com"
+
+dn-lead: "Amoolya Chandrabhatta & Casey Lidstad"
+dn-contact: "email@email.com"
+dn-zoom-date: "Every Other Wednesday During Lunch"
+dn-zoom-id: "123-4567-8901"
+dn-zoom-pw: "password"
+dn-zoom-url: "https://example.com"
+
+phs-lead: "We're looking for a committed high schooler to open a DON club!"
+phs-contact: "inbar@donpusd.org"
+phs-zoom-date: "Club not open yet!"
+phs-zoom-id: "Club not open yet!"
+phs-zoom-pw: "Club not open yet!"
+phs-zoom-url: ""
+
+wv-lead: "We're looking for a committed high schooler to open a DON club!"
+wv-contact: "inbar@donpusd.org"
+wv-zoom-date: "Club not open yet!"
+wv-zoom-id: "Club not open yet!"
+wv-zoom-pw: "Club not open yet!"
+wv-zoom-url: ""
+
+    
 #-------------------------------
 # Exprerience Section
 

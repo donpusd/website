@@ -11,7 +11,7 @@ signature: assets/images/about/signature.png
     <summary><h4><strong>How do I join Diversify Our Narrative PUSD?</strong></h4></summary>    
     
     <div class="card-body active-bg-white text-left mt-3 mb-3 ml-3 mr-3">
-    <h5>We're always looking for new members! To join, go to <a href="https://join.donpusd.org">join.donpusd.org</a> and fill out the form. Within 24 hours, you will recieve an email detailing how to get started with our organization by joining Slack, our hub for communication.</h5>
+    <h5>We're always looking for new members! To join, click <a href="{{ site.data.settings.blurb-btn-link }}" target="_blank">here</a> and fill out the form. Within 24 hours, you will recieve an email detailing how to get started with our organization by joining Slack, our hub for communication.</h5>
     </div>
     
 </details>
@@ -58,7 +58,7 @@ signature: assets/images/about/signature.png
     What are the school clubs? How can I join them?</strong></h4></summary>    
     
     <div class="card-body active-bg-white text-left mt-3 mb-3 ml-3 mr-3">
-    <h5>We have (or are in the process of) establishing clubs at every PUSD high school! To get information about each school's club, click <a href="mailto:hello@donpusd.org">here</a>!</h5>
+    <h5>We have (or are in the process of) establishing clubs at every PUSD high school! To get information about each school's club, click <a href="{{ '/school-clubs' | relative_url }}">here</a>!</h5>
     </div>
     
 </details>

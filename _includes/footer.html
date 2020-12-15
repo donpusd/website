@@ -1,11 +1,18 @@
 <!-- footer -->
 <footer class="bg-dark footer-section">
   <div class="border-top text-center border-dark py-5">
-      <!-- social icon -->
-      {% for social in site.data.settings.social %}
-        <a href="{{ social.link }}" class="btn btn-transparent-white"><i class="{{ social.icon }}"></i></a>
-      {% endfor %}
-      <!-- /social icon -->
+    <div class="container-fluid">
+        <div class="mb-3 row justify-content-center">
+            <!-- social icon -->
+            {% for social in site.data.settings.social %}
+            <a href="{{ social.link }}" target="_blank">
+            <h4 class="text-white ml-4 mr-4"><i class="{{ social.icon }}"></i></h4>
+            </a>
+            {% endfor %}
+            <!-- /social icon -->
+          
+        </div>
+    </div>
     <p class="mb-3 text-white">{{site.data.settings.copyright}}</p>
   </div>
 </footer>

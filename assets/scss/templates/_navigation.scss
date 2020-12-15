@@ -21,6 +21,23 @@
       text-transform: uppercase;
       padding: 15px;
     }
+    
+    &.active{
+      font-weight: bold;
+    }
+  }
+
+  .nav-item-main{
+    .nav-link-main{
+      color: $primary-color;
+      font-family: $tertiary-font;
+      text-transform: uppercase;
+      padding: 12px;
+      background-color: $white;
+      border-radius: 8px;
+    }
+
+
     &.active{
       font-weight: bold;
     }

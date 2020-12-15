@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
-          <h2 class="text-dark-green font-tertiary">{{ site.data.settings.hero.hero-subtitle }}</h2>
+          <h2 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h2>
+          <h3 class="text-dark-green font-tertiary">{{ site.data.settings.hero.hero-subtitle }}</h3>
         </div>
       </div>
     </div>
@@ -12,19 +12,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mt-4 mx-auto">
-            <a href="{{ site.data.settings.blurb-btn-link }}" class="btn btn-white">{{ site.data.settings.blurb-btn-name }}</a>
+            <a href="{{ site.data.settings.blurb-btn-link }}" target="_blank" class="btn btn-white">{{ site.data.settings.blurb-btn-name }}</a>
         </div>
       </div>
     </div>
-  
-  
-  
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    {% for social in site.data.settings.social %}
-    <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
-    {% endfor %}
-  </ul>
-  <!-- /social icon -->
 </section>
 <!-- /hero area -->

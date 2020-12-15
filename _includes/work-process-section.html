@@ -7,9 +7,9 @@
         <h2 class="section-title">Our Process</h2>
       </div>
       {% for work in site.data.settings.work-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-          <i class="{{ work.icon }} icon mb-5 d-inline-block"></i>
-        <h4 class="mb-4">{{ work.title }}</h4>
+      <div class="col-lg-3 col-md-4 text-center pt-3 hover-shadow rounded">
+          <i class="{{ work.icon }} icon mb-5 d-inline-block primary-color"></i>
+        <h4 class="mb-4 font-tertiary">{{ work.title }}</h4>
         <p>{{ work.content | markdownify }}</p>
       </div>
       {% endfor %}
