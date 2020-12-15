@@ -1,5 +1,5 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://donpusd.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://donpusd.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
