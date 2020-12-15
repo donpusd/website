@@ -79,37 +79,37 @@ work-process:
 team:
   - title : "Tamara Alsaied"
     school: "MCHS '22"
-    image : "assets/images/team/member-1.png"
+    image : "assets/images/team/tamara.jpg"
     position : "Co-President"
     
   - title : "Jessica Malvin"
     school: "MCHS '22"
-    image : "assets/images/team/member-2.png"
+    image : "assets/images/team/jessica.jpg"
     position : "Co-President"
     
   - title : "Aditya Mavalankar"
     school: "RBHS '21"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/aditya.jpg"
     position : "Director of Finances"
 
   - title : "Inbar Schwartz"
     school: "ABHS"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/inbar.jpg"
     position : "Director of Outreach"
 
   - title : "Katie Schwenker"
     school: "ABHS"
-    image : "assets/images/team/member-2.png"
+    image : "assets/images/team/katie.jpg"
     position : "Executive Secretary"
     
   - title : "Sonia Somasundaram"
     school: "ABHS"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/sonia.jpg"
     position : "Director of Academics"
 
   - title : "Claire Chung"
     school: "RBHS '21"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/claire.png"
     position : "Director of Logistics"
 
 #-------------------------------
