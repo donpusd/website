@@ -43,6 +43,7 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+  color: $primary-color;
 }
 
 a,
@@ -63,7 +64,7 @@ a.text-dark{
 }
 
 a:hover {
-  color: $primary-color;
+  color: $dark-green;
 }
 
 .slick-slide {
@@ -71,11 +72,41 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &-title {
     margin-bottom: 80px;
+    font-family: $tertiary-font;
+  }
+}
+
+.section-compact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &-title {
+    margin-bottom: 60px;
+    font-family: $tertiary-font;
+  }
+}
+
+.section-compact-top {
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+  &-title {
+    margin-bottom: 60px;
+    font-family: $tertiary-font;
+  }
+}
+
+.section-compact-bottom {
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+  &-title {
+    margin-bottom: 20px;
     font-family: $tertiary-font;
   }
 }

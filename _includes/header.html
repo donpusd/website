@@ -11,7 +11,6 @@
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto align-items-center">
         <li class="nav-item">
@@ -20,7 +19,6 @@
         {% for link in site.data.settings.menu %}
           <li class="nav-item {{ class }}">
             <a class="nav-link" href="{{ link.link | relative_url }}">{{ link.name }}</a>
-            
           </li>
         {% endfor %}
         <li class="nav-item-main">

@@ -93,17 +93,17 @@ team:
     position : "Director of Finances"
 
   - title : "Inbar Schwartz"
-    school: "ABHS"
+    school: "MCHS '22"
     image : "assets/images/team/inbar.jpg"
     position : "Director of Outreach"
 
   - title : "Katie Schwenker"
-    school: "ABHS"
+    school: "MCHS '22"
     image : "assets/images/team/katie.jpg"
     position : "Executive Secretary"
     
   - title : "Sonia Somasundaram"
-    school: "ABHS"
+    school: "MCHS '22"
     image : "assets/images/team/sonia.jpg"
     position : "Director of Academics"
 
@@ -134,7 +134,7 @@ rb-zoom-url: "https://example.com"
 
 mc-lead: "Tamara Alsaied & Jessica Malvin"
 mc-contact: "email@email.com"
-mc-zoom-date: "Every Other Tuesday During Lunch"
+mc-zoom-date: "Every Other Tuesday @ 3pm After School"
 mc-zoom-id: "123-4567-8901"
 mc-zoom-pw: "password"
 mc-zoom-url: "https://example.com"
@@ -203,6 +203,29 @@ services:
     name: Community Connections,
     icon: ti-rocket,
     description: 'We partner with other social organizations, like Black Student Union, to maximize our impacts.',
+    active: true # Add true to select section
+  }
+
+# About School Clubs Section
+
+asc-title: About School Clubs
+asc:
+- {
+    name: Form Communities,
+    icon: ti-hand-open,
+    description: 'We want to bring the community closer in our goal of creating student activists and diversifying our education. These clubs are a great way for students to bond!',
+    active: true # Add true to select section
+  }
+- {
+    name: Local Events,
+    icon: ti-rss,
+    description: 'We host events for the local communities! These can be anything from phonebanking to webinars, and eveyone is welcome! To see upcoming events, go to "Blogs & Events"',
+    active: true # Add true to select section
+  }
+- {
+    name: Student Morale,
+    icon: ti-face-smile,
+    description: 'Our school clubs are able to focus on the unique and diverse student body of each school! We boost morale on campus and provide a safe space for people to share their thoughts.',
     active: true # Add true to select section
   }
 
