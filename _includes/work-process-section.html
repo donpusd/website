@@ -7,10 +7,14 @@
         <h2 class="section-title">Our Process</h2>
       </div>
       {% for work in site.data.settings.work-process %}
-      <div class="col-lg-3 col-md-4 text-center active-bg-primary pt-4 px-3 rounded">
-          <i class="{{ work.icon }} icon mb-5 d-inline-block primary-color"></i>
-        <h4 class="mb-4 font-tertiary">{{ work.title }}</h4>
-        <p>{{ work.content | markdownify }}</p>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 hover-shadow shadow">
+          <div class="card-body active-bg-primary text-center px-4 py-5 rounded">
+            <i class="{{ work.icon }} icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4 font-tertiary">{{ work.title }}</h4>
+            <p>{{ work.content }}</p>
+          </div>
+        </div>
       </div>
       {% endfor %}
     </div>
