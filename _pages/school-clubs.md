@@ -24,7 +24,7 @@ author: Aditya Mavalankar
 ---------------------------------------
 
 <details>
-    <summary><h4><strong>Del Nortel High School</strong></h4></summary>    
+    <summary><h4><strong>Del Norte High School</strong></h4></summary>    
     
     {% include school-club-info-dn.html %}
     
