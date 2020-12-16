@@ -1,4 +1,5 @@
 <div class="col-lg-4 col-sm-6 mb-4 h-100">
+  
   <article class="card hover-bg-primary">
     <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     <div class="card-body">
@@ -7,7 +8,7 @@
         <a class="text-dark" href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
       </h4>
       <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
-      <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">More Info</a>
+      <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary border border-white">More Info</a>
     </div>
   </article>
 </div>
