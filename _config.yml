@@ -1,6 +1,13 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://donpusd.org" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Pull spreadsheet settings
+integration_spreadsheet_key: 2PACX-1vTyLF1PoMhdF2ZRKaYiqc5c6a9OaCl8cOzDq2W_reAUZkSzao4l7eQa6hhjtlYhuVSO4AWRRmv7-p-g
+
+github_user: donpusd
+github_repo: website
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty
