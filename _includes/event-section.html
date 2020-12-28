@@ -1,0 +1,59 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  if ($('#events').is(':empty')){
+    $("#warning").show();
+    $("#event-list").hide();
+  } else {
+    $("#warning").hide();
+  }
+});
+</script>
+
+<section class="section bg-green-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Upcoming Events</h2>
+      </div>
+      {% ical url: {{site.data.settings.ical-url}} reverse: true only_future: true limit:2 %}
+      <div class="col-md-6 mb-6 mb-md-6">
+        <div class="card hover-shadow shadow hover-bg-primary">
+          <div class="card-body px-4 py-4 rounded">
+            <h3 class="section-title mb-1 pt-1">{{ event.start_time | date: "%b %-d, %Y" }}</h3>
+            <h4 class="mb-4">{{ event.summary }}</h4>
+            <h5 class="mb-4">{{ event.start_time | date: "%I:%M" }} to {{ event.end_time | date: "%I:%M %p %Z" }}</h5>
+            <a href="{{ event.location }}" target="_blank" class="btn btn-xs btn-primary border border-white">Sign Up</a>
+            <details class="mt-4 mx-1 mb-0">
+                <summary class="mb-3">More Info</summary>
+                <hr>
+                {{ event.description }}
+            </details>
+          </div>
+        </div>
+      </div>
+      {% endical %}
+      <div class="col-12 text-center mt-5">
+          <a href="{{ '/events' | relative_url }}" class="btn btn-primary">See all events</a>    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- /blog -->
+
+<section class="section bg-gray" id="warning">
+  <div class="container">
+    <div class="row my-5">
+        <div class="col-lg-10 mx-auto text-center">
+            <i class="ti-calendar icon mb-5 d-inline-block"></i>
+        </div>
+      
+      <div class="col-lg-10 mx-auto text-center">
+          <h4 class="font-tertiary text-black">Currently, we don't have any upcoming events. Stay tuned, however!</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- blog -->

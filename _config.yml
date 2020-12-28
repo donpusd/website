@@ -7,12 +7,17 @@ integration_spreadsheet_key: 2PACX-1vTyLF1PoMhdF2ZRKaYiqc5c6a9OaCl8cOzDq2W_reAUZ
 github_user: donpusd
 github_repo: website
 
+# Test Comment Section
+comment-post: https://docs.google.com/forms/d/e/1FAIpQLScQ-zeEkkisKpabnF83Fucm0Fa7BaA7f66YDqn_a-Y2ZF5BoQ
+comment-read: https://docs.google.com/spreadsheets/d/1G9gzjlG7cTlD4kobkuzYxmmssQpxXJog-HK9l6RHZTg
+comment-post-fields: [ entry.873644430, entry.1948946064, entry.1994592920]
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-ical-tag
 compress_html:
   clippings: all
   comments: all
@@ -31,6 +36,8 @@ include:
 sass:
   sass_dir: assets/scss
   style: compressed
+
+
 
 # Exclude from processing.
 exclude:

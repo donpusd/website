@@ -7,11 +7,13 @@ author: Aditya Mavalankar
 description: Diversify Our Narrative PUSD
 email: hello@donpusd.org
 copyright: Copyright &copy; Diversify Our Narrative PUSD. Designed with ❤️ in San Diego.
+ical-url: https://calendar.google.com/calendar/ical/hinca0g27qemtade0d6ojienl0%40group.calendar.google.com/public/basic.ics
 
 menu:
-- {name: About Us, link: '/about'}
-- {name: Blogs & Events, link: '/blog'}
-- {name: School Clubs, link: '/school-clubs'}
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: Events, link: '/events'}
+- {name: Clubs, link: '/school-clubs'}
 - {name: Contact, link: '/contact'}
 
 #-------------------------------
