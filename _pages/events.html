@@ -14,15 +14,16 @@ $(document).ready(function(){
 });
 </script>
 
-<section class="section bg-green-gray">
+
+<section class="section bg-green-gray" id="event-list">
   <div class="container">
-    <div class="row">
       <div class="col-12 text-center">
         <h2 class="section-title">Upcoming Events</h2>
       </div>
+    <div class="row" id="events">
       {% ical url: {{site.data.settings.ical-url}} reverse: true only_future: true %}
-      <div class="col-md-6 mb-6 mb-md-6">
-        <div class="card hover-shadow shadow hover-bg-primary">
+      <div class="col-md-6 mb-6 mb-md-6" id="events">
+        <div class="card hover-shadow shadow hover-bg-primary mb-4">
           <div class="card-body px-4 py-4 rounded">
             <h3 class="section-title mb-1 pt-1">{{ event.start_time | date: "%b %-d, %Y" }}</h3>
             <h4 class="mb-4">{{ event.summary }}</h4>
@@ -37,12 +38,13 @@ $(document).ready(function(){
         </div>
       </div>
       {% endical %}
+    </div>
 </section>
 <!-- /blog -->
 
 <!-- /blog -->
 
-<section class="section bg-gray" id="warning">
+<section class="section bg-green-gray" id="warning">
   <div class="container">
     <div class="row my-5">
         <div class="col-lg-10 mx-auto text-center">
