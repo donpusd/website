@@ -4,8 +4,8 @@
     <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     <div class="card-body">
       <h5 class="card-date">{{ post.date-parsed }}</h5>
-      <h4 class="card-title">
-        <a class="text-dark font-tertiary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <h4 class="card-title font-tertiary">
+        <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h4>
       <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
       <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary border border-white">More Info</a>
