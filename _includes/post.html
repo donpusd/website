@@ -3,9 +3,9 @@
   <article class="card hover-bg-primary">
     <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     <div class="card-body">
-      <h5 class="card-date">{{ post.date-parsed }}</h5>
+      <h5 class="card-date">{{ post.date | date: "%b %-d, %Y" }}</h5>
       <h4 class="font-tertiary">{{ post.title }}</h4>
-      <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
+      <p class="card-text">{% assign curlyend = '}' %}{{ post.subtitle | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
       <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary border border-white">More Info</a>
     </div>
   </article>
