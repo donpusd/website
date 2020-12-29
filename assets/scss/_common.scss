@@ -243,7 +243,7 @@ a:hover {
 }
 
 .bg-dark{
-  background-color: #303830 !important;
+  background-color: #1b2421 !important;
 }
 
 /* icon */
@@ -320,3 +320,12 @@ textarea.form-control{
   }
 }
 /* /card */
+
+mark {
+  display: inline-block;
+  line-height: 5px;
+  margin-top: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  background: #5cffbb;
+}

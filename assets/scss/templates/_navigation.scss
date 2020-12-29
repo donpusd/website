@@ -1,11 +1,11 @@
 .navigation{
-  padding: 40px 130px;
+  padding: 40px 100px;
   transition: 0.2s ease;
   background-color: $primary-color;
   &.nav-bg {
-    padding: 15px 100px;
+    padding: 15px 40px;
     @include desktop {
-      padding: 15px 20px;
+      padding: 15px 10px;
     }
   }
   @include desktop {
@@ -19,7 +19,7 @@
     .nav-link{
       font-family: $tertiary-font;
       text-transform: uppercase;
-      padding: 15px;
+      padding: 20px;
     }
     
     &.active{
@@ -35,8 +35,13 @@
       padding: 12px;
       background-color: $white;
       border-radius: 8px;
+      &:hover {
+	background: $black
+      }
     }
 
+
+  
 
     &.active{
       font-weight: bold;

@@ -41,7 +41,7 @@
   }
 
   &:hover {
-    background: lighten($color: $primary-color, $amount: 10);
+    background: darken($color: $primary-color, $amount: 20) !important;
   }
 
   &.focus,
@@ -60,7 +60,7 @@
   }
 
   &:hover {
-    background: darken($color: $white, $amount: 10);
+    background: darken($color: $black, $amount:0);
   }
 
   &.focus,

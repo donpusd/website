@@ -221,7 +221,7 @@ asc:
 - {
     name: Local Events,
     icon: ti-rss,
-    description: 'We host events for the local communities! These can be anything from phonebanking to webinars, and eveyone is welcome! To see upcoming events, go to "Blogs & Events"',
+    description: 'We host events for the local communities! These can be anything from phonebanking to webinars, and eveyone is welcome! To see upcoming events, go to "Events"',
     active: true # Add true to select section
   }
 - {
