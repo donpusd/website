@@ -18,6 +18,8 @@
   {% for css in site.data.plugins.css %}
   <link rel="stylesheet" href="{{ css | relative_url }}">
   {% endfor %}
+  
+  <link rel="preload" href="/assets/fonts/37A739_0_0.woff2" as="font" type="font/woff2" crossorigin="">
 
   <!-- Main Stylesheet -->
   <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">

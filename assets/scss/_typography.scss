@@ -8,6 +8,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: '37A739_0_0';
+  src: url("../fonts/37A739_0_0.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   line-height: 1.2;
   font-family: $primary-font;
