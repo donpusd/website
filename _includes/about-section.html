@@ -2,11 +2,18 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-          <h3 class="font-tertiary text-primary">{{ site.data.settings.blurb }}</h3>
-          <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.mission }}</p>
-          <a href="{{ site.data.settings.blurb-btn-link }}" target="_blank" class="btn btn-primary">{{ site.data.settings.blurb-btn-name }}</a>
-      </div>
+        <div class="col-lg-10 mx-auto text-center hideme">
+            <h3 class="font-tertiary text-primary">{{ site.data.settings.blurb }}</h3>
+        </div>
+        
+        <div class="col-lg-10 mx-auto text-center hideme">
+            <p class="font-secondary paragraph-lg text-dark hideme">{{ site.data.settings.mission }}</p>
+        </div>
+        
+        <div class="col-lg-10 mx-auto text-center hideme">
+            <a href="{{ site.data.settings.blurb-btn-link }}" target="_blank" class="btn btn-primary hideme">{{ site.data.settings.blurb-btn-name }}</a>
+        </div>
+          
     </div>
   </div>
 </section>

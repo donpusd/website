@@ -17,12 +17,12 @@ $(document).ready(function(){
 
 <section class="section bg-green-gray" id="event-list">
   <div class="container">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center hideme">
         <h2 class="section-title">Upcoming Events</h2>
       </div>
     <div class="row" id="events">
       {% ical url: {{site.data.settings.ical-url}} reverse: true only_future: true %}
-      <div class="col-md-6 mb-6 mb-md-6" id="events">
+      <div class="col-md-6 mb-6 mb-md-6 hideme" id="events">
         <div class="card hover-shadow shadow hover-bg-primary mb-4">
           <div class="card-body px-4 py-4 rounded">
             <h3 class="section-title mb-1 pt-1">{{ event.start_time | date: "%b %-d, %Y" }}</h3>
@@ -46,12 +46,12 @@ $(document).ready(function(){
 
 <section class="section bg-green-gray" id="warning">
   <div class="container">
-    <div class="row my-5">
+    <div class="row my-5 hideme">
         <div class="col-lg-10 mx-auto text-center">
             <i class="ti-calendar icon mb-5 d-inline-block"></i>
         </div>
       
-      <div class="col-lg-10 mx-auto text-center">
+      <div class="col-lg-10 mx-auto text-center hideme">
           <h4 class="font-tertiary text-black">Currently, we don't have any upcoming events. Stay tuned, however!</h4>
       </div>
     </div>

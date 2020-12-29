@@ -3,11 +3,11 @@
 <section class="section">
   <div class="container mt-auto">
     <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center hideme">
         <h2 class="section-title">Our Process</h2>
       </div>
       {% for work in site.data.settings.work-process %}
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4 hideme">
         <div class="card h-100 hover-shadow shadow">
           <div class="card-body active-bg-primary text-center px-4 py-5 rounded">
             <i class="{{ work.icon }} icon mb-5 d-inline-block"></i>

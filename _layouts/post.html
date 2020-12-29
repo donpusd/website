@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">Blog</h1>
+        <h1 class="text-white font-tertiary animated animatedFadeInUp fadeInUp">Blog</h1>
       </div>
     </div>
   </div>
@@ -34,8 +34,8 @@ layout: default
 <section class="section bg-green-gray">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Other Stories</h2>
+      <div class="col-12 text-center hideme">
+        <h2 class="section-title hideme">Other Stories</h2>
       </div>
       {% for post in site.posts offset:0 limit:3 %}
       {% include post.html %}

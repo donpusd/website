@@ -4,11 +4,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ site.data.settings.asc-title }}</h2>
-        <h4 class="section-title">We are looking for committed high schoolers from WVHS and PHS to create DON clubs at those schools! If you would like to start a club, please reach out to us by clicking <a href="mailto:inbar@donpusd.org">here</a>!</h4>
+        <h2 class="section-title hideme">{{ site.data.settings.asc-title }}</h2>
+        <h4 class="section-title hideme">We are looking for committed high schoolers from WVHS and PHS to create DON clubs at those schools! If you would like to start a club, please reach out to us by clicking <a href="mailto:inbar@donpusd.org">here</a>!</h4>
       </div>
       {% for service in site.data.settings.asc %}
-      <div class="col-md-4 mb-4 mb-md-0">
+      <div class="col-md-4 mb-4 mb-md-0 hideme">
         <div class="card h-100 hover-shadow shadow">
           <div class="card-body {% if service.active %}active-bg-primary{% endif %} text-center px-4 py-5 rounded">
             <i class="{{ service.icon }} icon mb-5 d-inline-block"></i>

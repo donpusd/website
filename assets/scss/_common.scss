@@ -329,3 +329,51 @@ mark {
   padding-right: 0.3em;
   background: #5cffbb;
 }
+
+/* Animation */
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,60px,0);
+            opacity: 0.25;
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,100px,0);
+            opacity: 0;
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+    }
+
+    .animated {
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.3s;
+        -webkit-animation-fill-mode: both;
+    }
+
+    .animatedFadeInUp {
+        opacity: 0;
+    }
+
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+
+.hideme
+    {
+        opacity:0;
+    }

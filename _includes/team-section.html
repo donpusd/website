@@ -3,11 +3,11 @@
 <section class="section bg-green-gray">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center hideme">
         <h2 class="section-title">Meet the Team</h2>
       </div>
       {% for team-member in site.data.settings.team %}
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4 hideme">
         <div class="card h-100 text-center hover-bg-primary">
           <img src="{{ team-member.image | relative_url }}" class="card-img-top">
           <div class="card-body">

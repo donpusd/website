@@ -5,8 +5,8 @@ author: Aditya Mavalankar
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
-
----------------------------------------
+<div class="hideme">
+<hr>
 <details>
     <summary><h4><strong>How do I join Diversify Our Narrative PUSD?</strong></h4></summary>    
     
@@ -15,9 +15,10 @@ signature: assets/images/about/signature.png
     </div>
     
 </details>
+</div>
 
----------------------------------------
-
+<div class="hideme">
+<hr>
 <details>
     <summary><h4><strong>Do I have to be a current PUSD student to join?</strong></h4></summary>    
     
@@ -26,9 +27,10 @@ signature: assets/images/about/signature.png
     </div>
     
 </details>
+</div>
 
----------------------------------------
-
+<div class="hideme">
+<hr>
 <details>
     <summary><h4><strong>
     What are your goals as an organization?</strong></h4></summary>    
@@ -38,9 +40,10 @@ signature: assets/images/about/signature.png
     </div>
     
 </details>
+</div>
 
----------------------------------------
-
+<div class="hideme">
+<hr>
 <details>
     <summary><h4><strong>
     Who can I contact if I've got more questions?</strong></h4></summary>    
@@ -50,9 +53,10 @@ signature: assets/images/about/signature.png
     </div>
     
 </details>
+</div>
 
----------------------------------------
-
+<div class="hideme">
+<hr>
 <details>
     <summary><h4><strong>
     What are the school clubs? How can I join them?</strong></h4></summary>    
@@ -62,5 +66,5 @@ signature: assets/images/about/signature.png
     </div>
     
 </details>
-
----------------------------------------
+<hr>
+</div>
