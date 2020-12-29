@@ -68,6 +68,66 @@
   }
 }
 
+.hover-bg-black {
+  transition: .3s ease;
+
+  &:hover {
+    background: $black;
+
+    * {
+      color: #e0ba3a;
+    }
+  }
+}
+
+.hover-bg-poway {
+  transition: .3s ease;
+
+  &:hover {
+    background: #505752;
+
+    * {
+      color: #3cf078;
+    }
+  }
+}
+
+.hover-bg-mt-carmel {
+  transition: .3s ease;
+
+  &:hover {
+    background: #cf3123;
+
+    * {
+      color: #f7e80f;
+    }
+  }
+}
+
+.hover-bg-dnhs{
+  transition: .3s ease;
+
+  &:hover {
+    background: #293994;
+
+    * {
+      color: #42ffa1;
+    }
+  }
+}
+
+.hover-bg-rbhs{
+  transition: .3s ease;
+
+  &:hover {
+    background: #4281ff;
+
+    * {
+      color: $white;
+    }
+  }
+}
+
 .active-bg-primary {
   transition: .3s ease;
   background: $primary-color;
