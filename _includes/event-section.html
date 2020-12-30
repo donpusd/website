@@ -1,9 +1,24 @@
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--<script>-->
+<!---->
+<!--$(document).ready(function(){-->
+<!--  if ($('#event-card').is(':empty')){-->
+<!--    $("#event-list").hide();-->
+<!--  }-->
+<!--  -->
+<!--  if ($('#event-card').length) {-->
+<!--      $("#event-list").hide();-->
+<!--  }-->
+<!--});-->
+<!---->
+<!--</script>-->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
   if ($('#events').is(':empty')){
     $("#event-list").hide();
-  }
+  } 
 });
 </script>
 
@@ -14,12 +29,20 @@ $(document).ready(function(){
       </div>
     <div class="row" id="events">
 
-        {% for event in site.events limit: 2 %}
-            {% include event.html %}
+        {% assign curDate = site.time | date: '%s' %}
+        {% assign count = 0 %}
+        {% assign maxPosts = 2 %}
+
+        {% for event in site.events %}
+            {% assign postStartDate = event.date | date: '%s' %}
+            {% if postStartDate >= curDate and maxPosts > count %}
+                {% include event.html %}
+                {% assign count = count | plus: 1 %}
+            {% endif %}
         {% endfor %}
         
     </div>
-    <div class="row" id="events">
+    <div class="row" id="events-all">
         <div class="col-12 text-center mt-5 hideme"> <a href="/events" class="btn btn-primary">See all events</a></div>
     </div>
 </section>

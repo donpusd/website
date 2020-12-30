@@ -25,13 +25,23 @@ body {
 
 ol,
 ul {
+  list-style-type: square;
+  margin: 4px;
+}
+
+ul-nav {
   list-style-type: none;
   margin: 0px;
 }
 
 li {
+  list-style-type: square;
+  margin: 4px;
+}
+
+li-nav {
   list-style-type: none;
-  margin: 12px;
+  margin: 4px;
 }
 
 img {

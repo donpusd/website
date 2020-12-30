@@ -1,14 +1,35 @@
-<div class="col-md-6 mb-6 mb-md-6 hideme" id="events">
-    <div class="card hover-shadow shadow hover-bg-primary mb-4">
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--<script>-->
+<!--    $(document).ready(function(){-->
+<!--        -->
+<!--        var user_date = new Date();-->
+<!--        console.log(user_date);-->
+<!--        var event_date = $(this).data("id");-->
+<!--        -->
+<!--        if (!(dateCompare(user_date, event_date))) {-->
+<!--            $("#event-card").remove();-->
+<!--        }-->
+<!--        -->
+<!--    });-->
+<!---->
+<!---->
+<!--    function dateCompare(date1, date2){-->
+<!--        return (new Date(date2) > new Date(date1));-->
+<!--    }-->
+<!---->
+<!--</script>-->
+
+<div class="col-md-6 mb-6 mb-md-6 hideme">
+    <div class="card hover-shadow shadow hover-bg-primary mb-4" id="event-card" data-id="{{ event.date | date: "%b %-d, %Y" }}">
     <div class="card-body px-4 py-4 rounded">
-      <h3 class="section-title mb-1 pt-1">{{ event.start-time | date: "%b %-d, %Y" }}</h3>
+      <h3 class="section-title mb-1 pt-1">{{ event.date | date: "%b %-d, %Y" }}</h3>
       <h4 class="mb-4">{{ event.title }}</h4>
       <h5 class="mb-4">{{ event.date | date: "%I:%M" }} to {{ event.end-time | date: "%I:%M %p %Z" }}</h5>
       <a href="{{ event.url }}" target="_blank" class="btn btn-xs btn-primary border border-white">Sign Up</a>
       <details class="mt-4 mx-1 mb-0">
           <summary class="mb-3">More Info</summary>
           <hr>
-          {{ event.description }}
+          {{ event.description | markdownify }}
       </details>
     </div>
   </div>

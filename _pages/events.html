@@ -21,8 +21,16 @@ $(document).ready(function(){
         <h2 class="section-title">Upcoming Events</h2>
       </div>
     <div class="row" id="events">
+        {% assign curDate = site.time | date: '%s' %}
+        {% assign count = 0 %}
+        {% assign maxPosts = 147642192 %}
+
         {% for event in site.events %}
-        {% include event.html %}
+            {% assign postStartDate = event.date | date: '%s' %}
+            {% if postStartDate >= curDate and maxPosts > count %}
+                {% include event.html %}
+                {% assign count = count | plus: 1 %}
+            {% endif %}
         {% endfor %}
     </div>
 </section>
