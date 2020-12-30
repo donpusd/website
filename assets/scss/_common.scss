@@ -344,8 +344,8 @@ mark {
 
     @keyframes fadeInUp {
         from {
-            transform: translate3d(0,60px,0);
-            opacity: 0.25;
+            transform: translate3d(0,110px,0);
+            opacity: 0;
         }
 
         to {
@@ -356,7 +356,7 @@ mark {
 
     @-webkit-keyframes fadeInUp {
         from {
-            transform: translate3d(0,100px,0);
+            transform: translate3d(0,110px,0);
             opacity: 0;
         }
 
