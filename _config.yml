@@ -13,11 +13,6 @@ comment-post: https://docs.google.com/forms/d/e/1FAIpQLScQ-zeEkkisKpabnF83Fucm0F
 comment-read: https://docs.google.com/spreadsheets/d/1G9gzjlG7cTlD4kobkuzYxmmssQpxXJog-HK9l6RHZTg
 comment-post-fields: [ entry.873644430, entry.1948946064, entry.1994592920]
 
-collections:
-  posts:
-    output: true
-  events:
-    output: true
     
 # Build settings
 markdown: kramdown
@@ -37,6 +32,14 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
+
+collections:
+  posts:
+    output: true
+  events:
+    output: true
+    
+    
 include:
   - _pages
 
