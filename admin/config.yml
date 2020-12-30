@@ -2,7 +2,7 @@
 
 backend:
   name: git-gateway
-  branch: netlify
+  branch: netlify-cms
   
 media_folder: '/assets/uploads'
 logo_url: '/assets/images/don-logo.png'
