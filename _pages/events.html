@@ -21,23 +21,9 @@ $(document).ready(function(){
         <h2 class="section-title">Upcoming Events</h2>
       </div>
     <div class="row" id="events">
-      {% ical url: {{site.data.settings.ical-url}} reverse: true only_future: true %}
-      <div class="col-md-6 mb-6 mb-md-6 hideme" id="events">
-        <div class="card hover-shadow shadow hover-bg-primary mb-4">
-          <div class="card-body px-4 py-4 rounded">
-            <h3 class="section-title mb-1 pt-1">{{ event.start_time | date: "%b %-d, %Y" }}</h3>
-            <h4 class="mb-4">{{ event.summary }}</h4>
-            <h5 class="mb-4">{{ event.start_time | date: "%I:%M" }} to {{ event.end_time | date: "%I:%M %p %Z" }}</h5>
-            <a href="{{ event.location }}" target="_blank" class="btn btn-xs btn-primary border border-white">Sign Up</a>
-            <details class="mt-4 mx-1 mb-0">
-                <summary class="mb-3">More Info</summary>
-                <hr>
-                {{ event.description }}
-            </details>
-          </div>
-        </div>
-      </div>
-      {% endical %}
+        {% for event in site.events %}
+        {% include event.html %}
+        {% endfor %}
     </div>
 </section>
 <!-- /blog -->

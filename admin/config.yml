@@ -4,7 +4,8 @@ backend:
   name: git-gateway
   branch: netlify-cms
   
-media_folder: 'assets/uploads'
+media_folder: '/assets/uploads'
+logo_url: '/assets/images/don-logo.png'
       
 collections:
   - name: 'blog'
@@ -22,3 +23,17 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'events'
+    label: 'Events'
+    folder: '_events/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Event Title', name: 'event-title', widget: 'string' }
+      - { label: 'Start Date and Time', name: 'start-time', widget: 'datetime' }
+      - { label: 'End Date and Time', name: 'end-time', widget: 'datetime' }
+      - {label: "Sign-Up URL", name: "url", widget: "string"}
+      - { label: 'Event Description', name: 'description', widget: 'markdown' }

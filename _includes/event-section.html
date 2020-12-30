@@ -7,30 +7,21 @@ $(document).ready(function(){
 });
 </script>
 
-
 <section class="section bg-green-gray" id="event-list">
   <div class="container">
       <div class="col-12 text-center hideme">
         <h2 class="section-title">Upcoming Events</h2>
       </div>
     <div class="row" id="events">
-      {% ical url: {{site.data.settings.ical-url}} reverse: true only_future: true limit:2 %}
-      <div class="col-md-6 mb-6 mb-md-6 hideme" id="events">
-          <div class="card hover-shadow shadow hover-bg-primary mb-4">
-          <div class="card-body px-4 py-4 rounded">
-            <h3 class="section-title mb-1 pt-1">{{ event.start_time | date: "%b %-d, %Y" }}</h3>
-            <h4 class="mb-4">{{ event.summary }}</h4>
-            <h5 class="mb-4">{{ event.start_time | date: "%I:%M" }} to {{ event.end_time | date: "%I:%M %p %Z" }}</h5>
-            <a href="{{ event.location }}" target="_blank" class="btn btn-xs btn-primary border border-white">Sign Up</a>
-            <details class="mt-4 mx-1 mb-0">
-                <summary class="mb-3">More Info</summary>
-                <hr>
-                {{ event.description }}
-            </details>
-          </div>
-        </div>
-      </div>
-      {% endical %}
+
+        {% for event in site.events %}
+          {% assign event_time_seconds = event.start-time | date: "%s" | plus: 0 %}
+          {% assign current_time = "now" | date: "%s" %}
+
+          {% if event_time_seconds > current_time %}
+            {% include event.html %}
+          {% endif %}
+        {% endfor %}
     </div>
     <div class="row" id="events">
         <div class="col-12 text-center mt-5 hideme"> <a href="/events" class="btn btn-primary">See all events</a></div>
