@@ -8,12 +8,13 @@ media_folder: '/assets/uploads'
 logo_url: '/assets/images/don-logo.png'
       
 collections:
-  - name: 'blog'
-    identifier_field: blog-posts
+  - name: 'posts'
+    identifier_field: posts
     label: 'Blog'
-    folder: '_posts/blog/'
+    folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    output: true
     editor:
       preview: false
     fields:
@@ -25,11 +26,12 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'events'
-    identifier_field: event-posts
+    identifier_field: events
     label: 'Events'
-    folder: '_posts/events/'
+    folder: '_events/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{event-title}}'
+    output: true
     editor:
       preview: false
     fields:
