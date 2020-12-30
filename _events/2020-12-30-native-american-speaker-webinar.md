@@ -3,7 +3,7 @@ layout: post
 title: Native American Speaker Webinar
 date: 2021-01-09T00:00:00.000Z
 end-time: 2021-01-09T01:30:00.000Z
-url: https://docs.google.com/forms/d/e/1FAIpQLSf7yd2NMKNiVy6uG5eHQqKqbOwxnFEBiDLg-uxwjUUaoOjtLA/viewform
+event-url: https://docs.google.com/forms/d/e/1FAIpQLSf7yd2NMKNiVy6uG5eHQqKqbOwxnFEBiDLg-uxwjUUaoOjtLA/viewform
 description: >-
   **Jan 8, 2021, 4-5:30 PM PST**
 
