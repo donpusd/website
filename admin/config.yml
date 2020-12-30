@@ -9,7 +9,6 @@ backend:
     - editor
   
 media_folder: '/assets/uploads'
-logo_url: '/assets/images/don-logo.png'
       
 collections:
   - name: 'posts'
