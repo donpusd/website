@@ -1,0 +1,12 @@
+name: Trigger Netlify Build
+on:
+  schedule:
+    - cron: '0 0,12 * * *' # at 12 am and pm
+    
+jobs:
+  build:
+    name: rebuild_website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5fec1672ecca61bdb97df671
