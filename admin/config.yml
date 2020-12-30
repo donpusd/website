@@ -3,6 +3,9 @@
 backend:
   name: git-gateway
   branch: netlify-cms
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
   
 media_folder: '/assets/uploads'
 logo_url: '/assets/images/don-logo.png'
