@@ -19,7 +19,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     output: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
