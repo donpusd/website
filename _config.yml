@@ -29,7 +29,7 @@ collections:
     output: true
   events:
     output: true
-  school-club-info:
+  clubs:
     output: true
     
     

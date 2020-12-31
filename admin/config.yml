@@ -44,10 +44,10 @@ collections:
       - { label: 'End Date and Time', name: 'end-time', widget: 'datetime' }
       - {label: "Sign-Up URL", name: "event-url", widget: "string"}
       - { label: 'Event Description', name: 'description', widget: 'markdown' }
-  - name: 'school-club-info'
-    identifier_field: school-club-info
+  - name: 'clubs'
+    identifier_field: clubs
     label: 'School Club Info'
-    folder: '_school_club_info/'
+    folder: '_clubs/'
     create: true
     slug: '{{school-abb}}'
     output: true

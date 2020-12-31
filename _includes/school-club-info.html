@@ -4,34 +4,35 @@
     <summary><h4><strong>{{ club.title }}</strong></h4></summary>
     
     <!-- services -->
-    <section class="section">
+    <section class="section" style="color:{{ club.text-color }}">
         <div class="row">
           <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100 hover-bg-rbhs hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
+              <div class="card h-100" style="background:{{ club.box-color }};">
+                <div class="card-body text-center px-4 py-5" style="color:{{ club.text-color }}">
+
                 <i class="ti-user icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4 font-tertiary">Leaders</h4>
-                <p>{{ club.club-leaders }}<br/> <a href="{{ club.contact }}">Contact</a></p>
+                <h4 class="mb-4 font-tertiary" style="color:{{ club.text-color }}">Leaders</h4>
+                <p style="color:{{ club.text-color }}">{{ club.club-leaders }}<br/> <a href="{{ club.contact }}" style="color:{{ club.text-color }}"><u>Contact</u></a></p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100 hover-bg-rbhs hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="ti-calendar icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4 font-tertiary">Timing</h4>
-                <p>{{ club.timing }}</p>
+              <div class="card h-100" style="background:{{ club.box-color }};">
+                <div class="card-body text-center px-4 py-5" style="color:{{ club.text-color }}">
+                <i class="ti-calendar icon mb-5 d-inline-block" style="color:{{ club.text-color }}"></i>
+                <h4 class="mb-4 font-tertiary" style="color:{{ club.text-color }}">Timing</h4>
+                <p style="color:{{ club.text-color }}">{{ club.timing }}</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100 hover-bg-rbhs hover-shadow shadow">
-              <div class="card-body text-center px-4 py-5">
-                <i class="ti-desktop icon mb-5 d-inline-block"></i>
-                <h4 class="mb-4 font-tertiary">Zoom Details</h4>
-                <p><a href="{{ club.zoom-url }}" target="_blank">ID: {{ club.zoom-id }}</a> <br/> PW: {{ club.zoom-pw }}</p>
+            <div class="card h-100" style="background:{{ club.box-color }};">
+              <div class="card-body text-center px-4 py-5" style="color:{{ club.text-color }}">
+                <i class="ti-desktop icon mb-5 d-inline-block" style="color:{{ club.text-color }}"></i>
+                <h4 class="mb-4 font-tertiary" style="color:{{ club.text-color }}">Zoom Details</h4>
+                <p style="color:{{ club.text-color }}"><a href="{{ club.zoom-url }}" target="_blank" style="color:{{ club.text-color }}"><u>ID: {{ club.zoom-id }}</u></a> <br/> PW: {{ club.zoom-pw }}</p>
               </div>
             </div>
           </div>
