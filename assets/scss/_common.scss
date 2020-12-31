@@ -343,6 +343,8 @@ mark {
         animation-fill-mode: both;
         -webkit-animation-duration: 0.3s;
         -webkit-animation-fill-mode: both;
+        -webkit-animation-timing-function: ease-out;
+
     }
 
     .animatedFadeInUp {
