@@ -29,6 +29,8 @@ collections:
     output: true
   events:
     output: true
+  school-club-info:
+    output: true
     
     
 include:
