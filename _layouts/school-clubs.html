@@ -5,9 +5,19 @@ layout: page
 {% include about-school-clubs.html %}
 
 <section class="section bg-gray">
-  <div class="container">
-      <h2 class="section-title hideme">Individual School Club Information</h2>
-        {{ content }}
+    <div class="container">
+        <h2 class="section-title hideme">Individual School Club Information</h2>
+        {% for club in site.school-club-info %}
+        {% include school-club-info.html %}
+        {% endfor %}
+          {{ content }}
+      </div>
     </div>
-  </div>
+    <div class="container">
+        <h2 class="section-title hideme">Individual School Club Information</h2>
+        {% for club in site.school-club-info %}
+        {% include school-club-info.html %}
+        {% endfor %}
+      </div>
+    </div>
 </section>
