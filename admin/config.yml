@@ -44,3 +44,25 @@ collections:
       - { label: 'End Date and Time', name: 'end-time', widget: 'datetime' }
       - {label: "Sign-Up URL", name: "event-url", widget: "string"}
       - { label: 'Event Description', name: 'description', widget: 'markdown' }
+  - name: 'school-club-info'
+    identifier_field: school-club-info
+    label: 'School Club Info'
+    folder: '_school_club_info/'
+    create: true
+    slug: '{{school-abb}}'
+    output: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'School', name: 'school', widget: 'string', hint: 'Full name. For example: Westview High School' }
+      - { label: 'School Abbreviated', name: 'school-abb', widget: 'string', hint: 'For example: MCHS' }
+      - { label: 'Club Leaders', name: 'club-leaders', widget: 'string', hint: 'Should look like: "Amoolya Chandrabhatta & Casey Lidstad"' }
+      - { label: 'Contact Email', name: 'contact', widget: 'string' }
+      - { label: 'Timing/Frequency', name: 'timing', widget: 'string', hint: 'For example: Every Wednesday During Lunch' }
+      - { label: 'Zoom ID', name: 'timing', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
+      - { label: 'Zoom URL', name: 'timing', widget: 'string', hint: 'It should have the "https://"', required: 'false' }
+      - { label: 'Zoom Password', name: 'timing', widget: 'string' }
+      - { label: 'Box Color', name: 'box-color', widget: 'string' }
+      - { label: 'Text Color', name: 'text-color', widget: 'string' }
+
