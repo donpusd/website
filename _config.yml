@@ -2,17 +2,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://donpusd.org" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Los_Angeles
 
-# Pull spreadsheet settings
-integration_spreadsheet_key: 2PACX-1vTyLF1PoMhdF2ZRKaYiqc5c6a9OaCl8cOzDq2W_reAUZkSzao4l7eQa6hhjtlYhuVSO4AWRRmv7-p-g
-
 github_user: donpusd
 github_repo: website
-
-# Test Comment Section
-comment-post: https://docs.google.com/forms/d/e/1FAIpQLScQ-zeEkkisKpabnF83Fucm0Fa7BaA7f66YDqn_a-Y2ZF5BoQ
-comment-read: https://docs.google.com/spreadsheets/d/1G9gzjlG7cTlD4kobkuzYxmmssQpxXJog-HK9l6RHZTg
-comment-post-fields: [ entry.873644430, entry.1948946064, entry.1994592920]
-
     
 # Build settings
 markdown: kramdown
