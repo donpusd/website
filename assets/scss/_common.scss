@@ -301,34 +301,6 @@ a:hover {
 }
 /* /slick slider */
 
-/* form */
-.form-control{
-  border: 0;
-  border-radius: 0;
-  border-bottom: 1px solid $border-color;
-  height: 60px;
-  &:focus{
-    border-color: $primary-color;
-    outline: 0;
-    box-shadow: none !important;
-  }
-}
-
-textarea.form-control{
-  height: 120px;
-}
-/* /form */
-
-/* card */
-.card{
-  border: 0;
-  &-header{
-    border: 0;
-  }
-  &-footer{
-    border: 0;
-  }
-}
 /* /card */
 
 mark {
