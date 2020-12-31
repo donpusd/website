@@ -2,7 +2,7 @@
 
 backend:
   name: git-gateway
-  branch: netlify-cms
+  branch: netlify
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
