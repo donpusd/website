@@ -48,4 +48,3 @@ exclude:
   - Gemfile.lock
   - LICENSE.text
   - README.md
-  - SECURITY.md

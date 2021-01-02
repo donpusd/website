@@ -8,19 +8,57 @@
   font-display: swap;
 }
 
+/* Eina02 Regular Variations */
+
 @font-face {
-  font-family: '37A739_0_0';
-  src: url("../fonts/37A739_0_0.woff2") format("woff2");
+  font-family: 'Eina02-Regular';
+  src: url("../fonts/Eina02-Regular.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: '3237E4_0_0';
-  src: url("../fonts/3237E4_0_0.woff2") format("woff2");
+  font-family: 'Eina02-Regular';
+  src: url("../fonts/Eina02-RegularItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eina02-Regular';
+  src: url("../fonts/Eina02-Bold.woff2") format("woff2");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Eina02-Regular';
+  src: url("../fonts/Eina02-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Secondary Font */
+
+@font-face {
+  font-family: 'Eina02-SemiBold';
+  src: url("../fonts/Eina02-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eina02-SemiBold';
+  src: url("../fonts/Eina02-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 body {
   line-height: 1.2;

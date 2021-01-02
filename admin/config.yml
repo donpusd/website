@@ -22,12 +22,12 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'The title of the blog post' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', hint: 'A catchy 1-2 sentence hook to get the attention of the reader!' }
+      - { label: 'Date', name: 'date', widget: 'datetime', hint: 'The date you are posting the blog post' }
+      - { label: 'Image', name: 'image', widget: 'image', hint: 'A 371x270 image that will be the thumbnail of the post' }
+      - { label: 'Author', name: 'author', widget: 'string', hint: 'Should be First Name, Last Name (without the comma!)' }
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'The main event!' }
   - name: 'events'
     identifier_field: events
     label: 'Events'
@@ -39,11 +39,12 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Event Title', name: 'title', widget: 'string' }
-      - { label: 'Start Date and Time', name: 'date', widget: 'datetime' }
-      - { label: 'End Date and Time', name: 'end-time', widget: 'datetime' }
-      - {label: "Sign-Up URL", name: "event-url", widget: "string"}
-      - { label: 'Event Description', name: 'description', widget: 'markdown' }
+      - { label: 'Event Title', name: 'title', widget: 'string', hint: 'The title of the event.' }
+      - { label: 'Start Date and Time', name: 'date', widget: 'datetime', hint: 'The date and time the event starts at' }
+      - { label: 'End Date and Time', name: 'end-time', widget: 'datetime', hint: 'The date and time the event ends at' }
+      - {label: "Sign-Up URL", name: "event-url", widget: "string", hint: 'The link to the Google Form to sign up. Make sure it is right and has the "https://" at the beginning!'}
+      - {label: "Event Host", name: "event-url", widget: "string", hint: '(optional) i.e. "Hosted by DON RBHS"', required: false }
+      - { label: 'Event Description', name: 'description', widget: 'markdown', hint: 'A good description of the event. You can have bullets, bold text, etc. using the editor' }
   - name: 'clubs'
     identifier_field: clubs
     label: 'School Club Info'
