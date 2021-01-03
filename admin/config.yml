@@ -64,6 +64,6 @@ collections:
       - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
       - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
       - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
-      - { label: 'Box Color', name: 'box-color', widget: 'string' }
-      - { label: 'Text Color', name: 'text-color', widget: 'string' }
+      - { label: 'Box Color', name: 'box-color', widget: 'color' }
+      - { label: 'Text Color', name: 'text-color', widget: 'color' }
 
