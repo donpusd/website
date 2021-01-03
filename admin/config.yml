@@ -72,8 +72,8 @@ collections:
     file: "_data/club-info.yml"
     fields:
       - label: 'Club Information'
-      name: 'club-info'
-      widget: list
-      fields:
-        - {label: 'School', name: name, widget: string}
-        - {label: 'School Abbreviated', name: position, widget: string}
+        name: 'club-info'
+        widget: list
+        fields:
+          - {label: 'School', name: name, widget: string}
+          - {label: 'School Abbreviated', name: position, widget: string}
