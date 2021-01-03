@@ -67,19 +67,27 @@ collections:
       - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
       - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
       - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
-  - label: "Pages"
-    name: "pages"
+  - label: "Club Info"
+    name: "club-info"
+    editor:
+      preview: false
     files:
-      - label: "About Page"
-        name: "about"
+      - label: "School Clubs"
+        name: "school-clubs"
         file: "_data/club-info.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
+          - label: Club
+            name: club
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
+              - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+              - { label: 'School', name: 'title', widget: 'string', hint: 'Full name. For example: Westview High School' }
+              - { label: 'School Abbreviated', name: 'school-abb', widget: 'string', hint: 'For example: MCHS' }
+              - { label: 'Box Color', name: 'box-color', widget: 'color' }
+              - { label: 'Text Color', name: 'text-color', widget: 'color' }
+              - { label: 'Club Leaders', name: 'club-leaders', widget: 'string', hint: 'Should look like: "Amoolya Chandrabhatta & Casey Lidstad"' }
+              - { label: 'Contact Email', name: 'contact', widget: 'string' }
+              - { label: 'Timing/Frequency', name: 'timing', widget: 'string', hint: 'For example: Every Wednesday During Lunch' }
+              - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
+              - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
+              - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
