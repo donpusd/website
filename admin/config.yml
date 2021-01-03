@@ -67,8 +67,8 @@ collections:
       - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
       - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
       - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
-  - label: "About Page"
-    name: "about"
+  - name: 'about'
+    label: 'About Page'
     file: "_data/club-info.yml"
     fields:
       - label: 'Club Information'
