@@ -67,3 +67,17 @@ collections:
       - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
       - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
       - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
+    - label: "School Clubz"
+        name: "pages"
+        files:
+          - label: "About Page"
+            name: "about"
+            file: "_data/club-info.yml"
+            fields:
+              - label: 'Club Information'
+                name: 'club-info'
+                widget: list
+                fields:
+                  - {label: 'School', name: name, widget: string}
+                  - {label: 'School Abbreviated', name: position, widget: string}
+                  - {label: Photo, name: photo, widget: image}
