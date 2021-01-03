@@ -80,7 +80,6 @@ collections:
             name: club
             widget: list
             fields:
-              - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
               - { label: 'School', name: 'title', widget: 'string', hint: 'Full name. For example: Westview High School' }
               - { label: 'School Abbreviated', name: 'school-abb', widget: 'string', hint: 'For example: MCHS' }
               - { label: 'Box Color', name: 'box-color', widget: 'color' }
