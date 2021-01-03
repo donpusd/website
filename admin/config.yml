@@ -9,6 +9,7 @@ backend:
   
 media_folder: '/assets/uploads'
 display_url: https://www.donpusd.org
+publish_mode: editorial_workflow
 
 collections:
   - name: 'posts'
