@@ -7,3 +7,26 @@ faq:
   - answer: We invite all **PUSD students, teachers, administrators, parents, and
       alumni** to join our organization!
     question: Do I have to be a current PUSD student to join?
+FAQ:
+  - question: How do I join Diversify Our Narrative PUSD?
+    answer: We’re always looking for new members! To join,
+      click [here](http://localhost:4000/join.donpusd.org) and fill out the
+      form. Within 24 hours, you will recieve an email detailing how to get
+      started with out organization by joining Slack, our hub for communication.
+  - question: Do I have to be a current PUSD student to join?
+    answer: We invite all **PUSD students, teachers, administrators, parents, and
+      alumni** to join our organization!
+  - question: What are your goals as an organization?
+    answer: We have many goals! We want to make PUSD schools a more welcoming
+      environment. We believe we can achieve this through introducing more
+      diverse novels in the classroom, bringing in guest speakers, and
+      collaborating alongside the teachers and administrators within our
+      district.
+  - question: Who can I contact if I've got more questions?
+    answer: You have questions, and we've got answers! Please reach out to us
+      at [hello@donpusd.org](mailto:hello@donpusd.org). We'll get back to you
+      ASAP!
+  - question: What are the school clubs? How can I join them?
+    answer: We have (or are in the process of) establishing clubs at every PUSD high
+      school! To get information about each school's club,
+      click [here](/school-clubs)!
