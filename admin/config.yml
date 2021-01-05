@@ -90,3 +90,18 @@ collections:
               - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
               - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
               - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
+  - label: "FAQs"
+    name: "faq"
+    editor:
+      preview: false
+    files:
+      - label: "FAQs"
+        name: "faq"
+        file: "_data/faq.yml"
+        fields:
+          - label: FAQ
+            name: faq
+            widget: list
+            fields:
+              - { label: 'Question', name: 'question', widget: 'string', hint: 'For example: "How do I join DON PUSD?"' }
+              - { label: 'School Abbreviated', name: 'answer', widget: 'markdown', hint: 'For example: "You can join by..."' }

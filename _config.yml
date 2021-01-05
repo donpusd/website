@@ -29,9 +29,6 @@ collections:
     output: true
   events:
     output: true
-  clubs:
-    output: true
-    
     
 include:
   - _pages
