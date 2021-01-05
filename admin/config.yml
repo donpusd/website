@@ -46,27 +46,6 @@ collections:
       - {label: "Sign-Up URL", name: "event-url", widget: "string", hint: 'The link to the Google Form to sign up. Make sure it is right and has the "https://" at the beginning!'}
       - {label: "Event Host", name: "host", widget: "string", hint: '(optional) i.e. "Hosted by DON RBHS"', required: false }
       - { label: 'Event Description', name: 'description', widget: 'markdown', hint: 'A good description of the event. You can have bullets, bold text, etc. using the editor' }
-  - name: 'clubs'
-    identifier_field: clubs
-    label: 'School Club Info'
-    folder: '_clubs/'
-    create: true
-    slug: '{{school-abb}}'
-    output: true
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'School', name: 'title', widget: 'string', hint: 'Full name. For example: Westview High School' }
-      - { label: 'School Abbreviated', name: 'school-abb', widget: 'string', hint: 'For example: MCHS' }
-      - { label: 'Box Color', name: 'box-color', widget: 'color' }
-      - { label: 'Text Color', name: 'text-color', widget: 'color' }
-      - { label: 'Club Leaders', name: 'club-leaders', widget: 'string', hint: 'Should look like: "Amoolya Chandrabhatta & Casey Lidstad"' }
-      - { label: 'Contact Email', name: 'contact', widget: 'string' }
-      - { label: 'Timing/Frequency', name: 'timing', widget: 'string', hint: 'For example: Every Wednesday During Lunch' }
-      - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
-      - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
-      - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
   - label: "Club Info"
     name: "club-info"
     editor:
@@ -77,7 +56,7 @@ collections:
         file: "_data/club-info.yml"
         fields:
           - label: Club
-            name: club
+            name: Club
             widget: list
             fields:
               - { label: 'School', name: 'title', widget: 'string', hint: 'Full name. For example: Westview High School' }
@@ -100,7 +79,7 @@ collections:
         file: "_data/faq.yml"
         fields:
           - label: FAQ
-            name: faq
+            name: FAQ
             widget: list
             fields:
               - { label: 'Question', name: 'question', widget: 'string', hint: 'For example: "How do I join DON PUSD?"' }

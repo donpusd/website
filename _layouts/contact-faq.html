@@ -7,7 +7,19 @@ layout: page
 <section class="section bg-green-gray">
   <div class="container">
       <h2 class="section-title hideme">Frequently Asked Questions</h2>
-        {{ content }}
+      <div class="hideme">
+          {% for qa in site.data.faq.faq %}
+          <hr>
+          <details>
+              <summary><h4><strong>{{ qa.question }}</strong></h4></summary>
+              
+              <div class="card-body active-bg-white text-left mt-3 mb-3 ml-3 mr-3">
+                  <h5>{{ qa.answer | markdownify | remove: "<p>" | remove: "</p>" }}</h5>
+              </div>
+              
+          </details>
+          {% endfor %}
+      </div>
   </div>
 </section>
 
