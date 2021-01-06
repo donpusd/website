@@ -4,7 +4,7 @@ Club:
     zoom-pw: gummyworm
     text-color: "#f8fdff"
     school-abb: RBHS
-    timing: Every Wednesday During Lunch
+    timing: Every Wednesday During Lunch @ 1:15
     layout: post
     club-leaders: Gabby Le & Aditya Mavalankar
     zoom-url: https://us04web.zoom.us/j/3518383292
@@ -18,10 +18,9 @@ Club:
     timing: Every Other Wednesday During Lunch
     layout: post
     club-leaders: Amoolya Chandrabhatta & Casey Lidstad
-    zoom-url:
+    zoom-url: null
     zoom-id: To be added.
     title: Del Norte High School
-    
   - contact: tamaraalsaied@gmail.com
     box-color: "#d43423"
     zoom-pw: hogwarts
@@ -41,7 +40,7 @@ Club:
     timing: Club not open yet!
     layout: post
     club-leaders: We're looking for a committed high schooler to open a DON club!
-    zoom-url:
+    zoom-url: null
     zoom-id: Club not open yet!
     title: Poway High School
   - contact: hello@donpusd.org
@@ -52,6 +51,6 @@ Club:
     timing: Club not open yet!
     layout: post
     club-leaders: We're looking for a committed high schooler to open a DON club!
-    zoom-url:
+    zoom-url: null
     zoom-id: Club not open yet!
     title: Westview High School
