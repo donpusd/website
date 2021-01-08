@@ -4,7 +4,7 @@ title: Native American Webinar Recap
 subtitle: Today, we learned about the brave and inspiring stories of various
   Native American students and professors from around the country. Here we have
   the recorded webinar and information on the speakers!
-date: 2021-01-09T01:30:17.081Z
+date: 2021-01-08T01:30:17.081Z
 image: /assets/uploads/native_american_webinar_thumbnail.png
 author: Gabby Le
 ---
