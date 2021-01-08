@@ -30,7 +30,6 @@ In her research she documents and revitalizes endangered Native American languag
 
 Below, we've embedded the recorded webinar in case you'd like to watch it!
 
-<iframe width="380" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
+<iframe src="https://www.youtube.com/embed/QH2-TGUlwu4?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&theme=light&color=white" width="385" height="300" frameborder="0"></iframe>
 
 **I'd like to give a special thank you to our RB organizers: Gabby Le, Christina Sturgeon, and Sarah Flores**
