@@ -1,16 +1,16 @@
 .navigation{
-  padding: 40px 100px;
+  padding: 10px 100px;
   transition: 0.2s ease;
-  background-color: $primary-color;
+  background: $primary-color;
   &.nav-bg {
-    padding: 15px 40px;
+    padding: 5px 40px;
     @include desktop {
-      padding: 15px 10px;
+      padding: 5px 10px;
     }
+    background: $primary-color;
   }
   @include desktop {
     padding: 20px;
-    background: $primary-color;
   }
 }
 
@@ -39,9 +39,6 @@
 	background: $black
       }
     }
-
-
-  
 
     &.active{
       font-weight: bold;

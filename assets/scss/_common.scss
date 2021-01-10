@@ -153,7 +153,10 @@ a:hover {
 }
 
 .bg-primary {
-  background: $primary-color !important;
+height: 100%;
+background-size: cover;
+background-repeat:no-repeat;
+background: linear-gradient(90deg, #18c98b, #36f595);
 }
 
 .bg-gray{
@@ -166,6 +169,12 @@ a:hover {
 
 .text-primary {
   color: $primary-color !important;
+}
+
+.text-gradient-primary {
+  background: -webkit-linear-gradient(90deg, #18c98b, #36f595);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-color {
@@ -303,14 +312,6 @@ a:hover {
 
 /* /card */
 
-mark {
-  display: inline-block;
-  line-height: 5px;
-  margin-top: 0.3em;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-  background: #5cffbb;
-}
 
 /* Animation */
 

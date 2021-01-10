@@ -5,11 +5,13 @@ title: Events
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+    $("#event-list").hide();
+    $("#warning").hide();
+
   if ($('#events').is(':empty')){
     $("#warning").show();
-    $("#event-list").hide();
   } else {
-    $("#warning").hide();
+    $("#event-list").show();
   }
 });
 </script>
@@ -17,7 +19,7 @@ $(document).ready(function(){
 
 <section class="section bg-green-gray" id="event-list">
   <div class="container">
-      <div class="col-12 text-center hideme">
+      <div class="col-12 text-center">
         <h2 class="section-title">Upcoming Events</h2>
       </div>
     <div class="row" id="events">
@@ -39,17 +41,14 @@ $(document).ready(function(){
 <!-- /blog -->
 
 <section class="section bg-green-gray" id="warning">
-  <div class="container">
-    <div class="row my-5 hideme">
+    <div class="row my-5">
         <div class="col-lg-10 mx-auto text-center">
             <i class="ti-calendar icon mb-5 d-inline-block"></i>
+            <h4 class="font-tertiary text-black">Currently, we don't have any upcoming events. Stay tuned, however!</h4>
+
         </div>
       
-      <div class="col-lg-10 mx-auto text-center hideme">
-          <h4 class="font-tertiary text-black">Currently, we don't have any upcoming events. Stay tuned, however!</h4>
-      </div>
     </div>
-  </div>
 </section>
 
 <!-- blog -->

@@ -1,11 +1,10 @@
-<header class="navigation fixed-top">
+<header class="navigation fixed-top" style="
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: linear-gradient(90deg, #18c98b, #36f595);">
   <nav class="navbar navbar-expand-xl navbar-dark">
     <a class="navbar-brand font-tertiary h3" href="{{ site.baseurl }}/">
-      {% if site.data.settings.logo %}
-        <img src="{{ site.data.settings.logo | absolute_url }}" alt="{{ site.data.settings.title }}">
-        {% else if %}
         <h3 class="text-white font-tertiary">{{site.data.settings.title}}</h3>
-      {% endif %}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
