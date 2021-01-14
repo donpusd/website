@@ -11,5 +11,8 @@ description: >-
   improving racial equity and inclusion in Poway Unified Schools.
 
 
-  To the DON PUSD members, especially those from RBHS: we strongly recommend you RSVP! If you are attending, you have the oppurtunity to ask questions and share your valuable opinions to the administration of PUSD! Be sure to prep your questions ahead of time.
+  **To the DON PUSD members, especially those from RBHS: we strongly recommend you RSVP!** If you are attending, you have the oppurtunity to ask questions and share your valuable opinions to the administration of PUSD! **Be sure to prep your questions ahead of time.**
+
+
+  If you have any questions about the event, please reach out to [aditya@donpusd.org](mailto:aditya@donpusd.org?subject=Question(s)%20about%20RBHS%20racial%20equity%20conversations)
 ---
