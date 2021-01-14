@@ -15,6 +15,7 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
+future: true
 
 # Pages Path
 defaults:
@@ -27,8 +28,10 @@ defaults:
 collections:
   posts:
     output: true
+    permalink: /:categories/:year/:month/:day/:title/
   events:
     output: true
+    permalink: /:categories/:year/:month/:day/:title/
     
 include:
   - _pages

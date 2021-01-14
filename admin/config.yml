@@ -39,7 +39,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
       - { label: 'Event Title', name: 'title', widget: 'string', hint: 'The title of the event.' }
       - { label: 'Start Date and Time', name: 'date', widget: 'datetime', hint: 'The date and time the event starts at' }
       - { label: 'End Date and Time', name: 'end-time', widget: 'datetime', hint: 'The date and time the event ends at' }
