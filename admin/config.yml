@@ -10,6 +10,7 @@ backend:
 media_folder: '/assets/uploads'
 display_url: https://www.donpusd.org
 publish_mode: editorial_workflow
+logo_url: '/assets/images/don_netlify_logo.png'
 
 collections:
   - name: 'posts'
