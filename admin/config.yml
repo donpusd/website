@@ -13,9 +13,11 @@ publish_mode: editorial_workflow
 logo_url: '/assets/images/don_netlify_logo.png'
 
 collections:
-  - name: 'posts'
-    identifier_field: posts
-    label: 'Blog'
+  - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Blog' # Used in the UI
+    label_singular: 'Blog' # Used in the UI, ie: "New Post"
+    description: >
+      Let's make a new blog post! You know the rules — keep it civil, simple, and inspiring! Be sure to have someone review it beforehand...
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'

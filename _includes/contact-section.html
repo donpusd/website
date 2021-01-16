@@ -7,10 +7,10 @@
       </div>
       
       <div class="col-12 text-center hideme">
-        <h3 class="section-title mt-0">You can reach out to us through our many platforms! See below for all the links!</h3>
+        <h3 class="mt-0"><b>You can reach out to us through our many platforms! See below for all the links!</b></h3>
       </div>
       
-      <div class="col-12 text-center hideme">
+      <div class="col-12 text-center hideme mt-2">
         {% for social in site.data.settings.social %}
             <a href="{{ social.link }}" class="btn btn-primary mb-2 mt-2 ml-2 mr-2"><i class="{{ social.icon }}"></i></a>
         {% endfor %}
