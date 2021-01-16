@@ -1,9 +1,8 @@
 # config.yml
 
 backend:
-  name: github
+  name: git-gateway
   branch: netlify
-  repo: donpusd/website
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
