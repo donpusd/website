@@ -156,11 +156,15 @@ a:hover {
 height: 100%;
 background-size: cover;
 background-repeat:no-repeat;
-background: linear-gradient(90deg, #18c98b, #36f595);
+background: linear-gradient(90deg, #47fcb7, #80ffad);
 }
 
 .bg-gray{
   background: $gray !important;
+}
+
+.bg-light-gray{
+  background: $bg-gray !important;
 }
 
 .bg-green-gray{
