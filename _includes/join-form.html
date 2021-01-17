@@ -28,108 +28,20 @@
 </style>
 
 
-<form name="join" action="/confirmation" method="POST" data-netlify="true">
-  <div class="form-group row hideme">
-    <label class="col-4 col-form-label" for="first-name">First Name*</label>
-    <div class="col-8">
-      <div class="input">
-        <input id="first-name" name="first-name" placeholder="John" type="text" required="required" class="form-control">
-      </div>
-    </div>
+<form id="test-form">
+  
+  <div>
+    <label>Field 1</label>
+    <input type="text" name="name" placeholder="Field 1"/>
   </div>
-  <div class="form-group row hideme">
-    <label class="col-4 col-form-label" for="last-name">Last Name*</label>
-    <div class="col-8">
-      <div class="input">
-        <input id="last-name" name="last-name" placeholder="Smith" type="text" required="required" class="form-control">
-      </div>
-    </div>
+
+  <div>
+    <label>Field 2</label>
+    <input type="text" name="text" placeholder="Field 2"/>
   </div>
-  <div class="form-group row hideme">
-    <label for="phone" class="col-4 col-form-label">Phone*</label>
-    <div class="col-8">
-      <div class="input">
-        <input id="phone" name="phone" placeholder="(858) 123-4567" type="text" class="form-control">
-      </div>
-    </div>
+  
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
   </div>
-  <div class="form-group row hideme">
-    <label class="col-4">Check this box if you have an iPhone</label>
-    <div class="col-8">
-      <label class="custom-control custom-checkbox">
-        <input name="iphone" type="checkbox" value="has-phone">
-        <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">iPhone</span>
-      </label>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <label for="email" class="col-4 col-form-label">Email*</label>
-    <div class="col-8">
-      <div class="input">
-        <input id="email" name="email" placeholder="john@donpusd.org" type="text" class="form-control" required="required">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <label for="school" class="col-4 col-form-label">Which school?*</label>
-    <div class="col-8">
-      <select id="school" name="school" class="custom-select" required="required">
-        <option value="RBHS">RBHS</option>
-        <option value="MCHS">MCHS</option>
-        <option value="PHS">PHS</option>
-        <option value="DNHS">DNHS</option>
-        <option value="WVHS">WVHS</option>
-        <option value="PUSD Administration">PUSD Administration</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <label for="applies-best" class="col-4 col-form-label">Which applies best?*</label>
-    <div class="col-8">
-      <select id="applies-best" name="applies-best" class="custom-select" required="required">
-        <option value="rabbit">Middle Schooler</option>
-        <option value="duck">9th Grader</option>
-        <option value="fish">10th Grader</option>
-        <option value="">11th Grader</option>
-        <option value="">12th Grader</option>
-        <option value="">Teacher</option>
-        <option value="">Librarian</option>
-        <option value="">PUSD Administration</option>
-      </select>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <label class="col-4">Which subcommittees would you like to join?*</label>
-    <div class="col-8">
-      <label class="custom-control custom-checkbox">
-        <input name="subcommittees" type="checkbox" value="outreach" required="required" aria-describedby="subcommitteesHelpBlock">
-        <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">Outreach</span>
-      </label>
-      <label class="custom-control custom-checkbox">
-        <input name="subcommittees" type="checkbox" value="ap-courses" required="required" aria-describedby="subcommitteesHelpBlock">
-        <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">AP Courses</span>
-      </label>
-      <label class="custom-control custom-checkbox">
-        <input name="subcommittees" type="checkbox" value="curriculum-literature" required="required" aria-describedby="subcommitteesHelpBlock">
-        <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">Curriculum Literature</span>
-      </label>
-      <span id="subcommitteesHelpBlock" class="form-text text-muted">Choose at least one.</span>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <label for="text-area" class="col-4 col-form-label">Any questions or comments?</label>
-    <div class="col-8">
-      <textarea id="text-area" name="text-area" cols="40" rows="4" class="form-control"></textarea>
-    </div>
-  </div>
-  <div class="form-group row hideme">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-xs btn-primary">Submit</button>
-    </div>
-  </div>
+
 </form>
