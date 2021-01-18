@@ -1,13 +1,20 @@
 .navigation{
   padding: 10px 100px;
   transition: 0.2s ease;
-  background: $primary-color;
+
+    background-color: rgba(255,255,255,0);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
   &.nav-bg {
     padding: 5px 40px;
     @include desktop {
       padding: 5px 10px;
     }
-    background: $primary-color;
+    background-color: rgba(255,255,255,.35);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    //border-bottom: 2px solid $black;
   }
   @include desktop {
     padding: 20px;
@@ -17,9 +24,14 @@
 .navbar{
   .nav-item{
     .nav-link{
+      color: $black;
       font-family: $tertiary-font;
       text-transform: uppercase;
       padding: 20px;
+    
+    &:hover {
+      color: $primary-color;
+    }
     }
     
     &.active{
@@ -29,14 +41,16 @@
 
   .nav-item-main{
     .nav-link-main{
-      color: $primary-color;
+      color: $white;
       font-family: $tertiary-font;
       text-transform: uppercase;
       padding: 12px;
-      background-color: $white;
+      background-color: $black;
       border-radius: 8px;
       &:hover {
-	background: $black
+	background: $white;
+	color: $black;
+	border: 2px solid black;
       }
     }
 
@@ -47,5 +61,5 @@
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: $white;
+  color: $black;
 }

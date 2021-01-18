@@ -72,6 +72,25 @@ collections:
               - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
               - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
               - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
+  - label: "Leadership"
+    name: "leadership"
+    editor:
+      preview: false
+    files:
+      - label: "Leadership"
+        name: "leadership"
+        file: "_data/leadership.yml"
+        fields:
+          - label: Leader
+            name: Leader
+            widget: list
+            fields:
+              - { label: 'Name', name: 'title', widget: 'string', hint: "First, Last, without the comma. For example: 'Tamara Alsaied'" }
+              - { label: 'Position', name: 'position', widget: 'string', hint: 'For example: Co-President' }
+              - { label: 'Portrait', name: 'image', widget: 'image' }
+              - { label: 'School & Graduation', name: 'school', widget: 'string', hint: "For example: MCHS '22" }
+              - { label: 'About Me', name: 'bio', widget: 'markdown', hint: "A several sentence bio about the person. Speak objectively in the third person" }
+              - { label: "Instagram", name: "instagram", widget: "string", hint: '(optional) Instagram handle (please do not put the "@"!)', required: false }
   - label: "FAQs"
     name: "faq"
     editor:
