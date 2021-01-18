@@ -23,6 +23,12 @@ body {
   justify-content: center;
 }
 
+.border-primary {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
+
 ol,
 ul {
   list-style-type: square;

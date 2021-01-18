@@ -69,6 +69,27 @@
   }
 }
 
+.btn-black {
+  background: $black;
+  color: $white;
+
+  &:active {
+    background: $white;
+    color: $black;
+  }
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+
+  &.focus,
+  &.active {
+    background: $white;
+    color: $black;
+  }
+}
+
 
 .btn-transparent {
   background: transparent;
