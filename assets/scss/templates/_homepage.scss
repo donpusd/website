@@ -65,6 +65,7 @@
     * {
       color: $white;
     }
+    color: $white !important;
   }
 }
 
@@ -86,6 +87,15 @@
 
   * {
     color: $white;
+  }
+}
+
+.active-bg-secondary {
+  transition: .3s ease;
+  background: $secondary-color;
+
+  * {
+    color: $black;
   }
 }
 

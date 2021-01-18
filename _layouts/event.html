@@ -33,7 +33,7 @@ layout: default
       <div class="col-lg-12">
         <a href="/events"><h4><i class="ti-angle-left mr-1"></i>Return to Events</a></h4>
         <h2 class="font-tertiary mt-2 mb-3 text-white">{{ page.title | escape }}</h2>
-        <h4 class="mb-4 text-white"><span class="text-primary">{{ page.date | date: "%b %-d, %Y" }}</span> from <span class="text-primary">{{ page.date | date: "%-I:%M" }} to {{ page.end-time | date: "%-I:%M %p %Z" }}</span></h4>
+        <h4 class="mb-4 text-white"><span class="text-yellow">{{ page.date | date: "%b %-d, %Y" }}</span> from <span class="text-yellow">{{ page.date | date: "%-I:%M" }} to {{ page.end-time | date: "%-I:%M %p %Z" }}</span></h4>
         <h4 class="mt-4 text-white">About the Event:</h4>
         {{ page.description | markdownify | replace: "<p>", "<p class='text-light-gray'>" }}
         <h5 class="text-white"><b>{{ page.host }}</b></h5>

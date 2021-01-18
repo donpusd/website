@@ -30,7 +30,7 @@
       padding: 20px;
     
     &:hover {
-      color: $primary-color;
+      color: $secondary-color;
     }
     }
     
@@ -41,7 +41,7 @@
 
   .nav-item-main{
     .nav-link-main{
-      color: $white;
+      color: $secondary-color;
       font-family: $tertiary-font;
       text-transform: uppercase;
       padding: 12px;

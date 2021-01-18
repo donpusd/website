@@ -59,7 +59,7 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
-  color: $primary-color;
+  color: $secondary-color;
 }
 
 a,
@@ -179,6 +179,10 @@ background: linear-gradient(90deg, #47fcb7, #80ffad);
 
 .text-primary {
   color: $primary-color !important;
+}
+
+.text-yellow {
+  color: $secondary-color;
 }
 
 .text-gradient-primary {

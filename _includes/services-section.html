@@ -1,6 +1,6 @@
 {% if site.data.settings.services %}
 <!-- services -->
-<section class="section bg-light-gray" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
+<section class="section bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center hideme">
@@ -9,8 +9,8 @@
       {% for service in site.data.settings.services %}
       <div class="col-md-4 mb-4 mb-md-0 hideme">
         <div class="card h-100">
-          <div class="card-body active-bg-primary text-center px-4 py-5 rounded">
-            <i class="{{ service.icon }} icon mb-5 d-inline-block"></i>
+          <div class="card-body text-center px-4 py-5 rounded" >
+            <i class="{{ service.icon }} icon mb-5 d-inline-block" style="color:#f2ce1b;"></i>
             <h4 class="mb-4"><strong>{{ service.name }}</strong></h4>
             <p>{{ service.description }}</p>
           </div>
