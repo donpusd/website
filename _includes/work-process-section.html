@@ -1,24 +1,38 @@
-{% if site.data.settings.work-process %}
-<!-- Work Process -->
+<!-- about -->
 <section class="section">
-  <div class="container mt-auto">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center hideme">
-        <h2 class="section-title">Our Process</h2>
-      </div>
-      {% for work in site.data.settings.work-process %}
-      <div class="col-md-4 mb-4 hideme">
-        <div class="card h-100 hover-shadow shadow">
-          <div class="card-body active-bg-primary text-center px-4 py-5 rounded">
-            <i class="{{ work.icon }} icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4 font-tertiary">{{ work.title }}</h4>
-            <p>{{ work.content }}</p>
-          </div>
+  <div class="container mb-5">
+    <div class="row">
+        
+        <div class="col-6 col-md-4 mt-4 mb-4 mx-auto hideme">
+            <img src="assets/images/vectors/process-vector.png" style="max-width:100%;">
         </div>
-      </div>
-      {% endfor %}
+        
+        
+        <div class="col-12 col-md-8 mx-auto hideme">
+            <p class="font-secondary paragraph-lg text-gray my-0">Our Process</p>
+            <h3 class="font-secondary text-primary mt-0 mb-2"><b>Our Work Process</b></h3>
+            <p class="font-primary paragraph-lg text-dark hideme">We are an organization of over 100 members across 6 schools! With so many diverse students, working efficiently is an exciting challenge. Here's how we work:</p>
+            {% if site.data.settings.work-process %}
+            <!-- Work Process -->
+                <div class="row justify-content-around">
+                  {% for work in site.data.settings.work-process %}
+                  <div class="col-md-4 hideme mb-3">
+                    <div class="card h-100 active-bg-primary mb-3 px-3 py-2">
+                        <h4><i class="{{ work.icon }} icon mt-2 mb-2 d-inline-block"></i></h4>
+                        <h4 class="mb-1 font-tertiary">{{ work.title }}</h4>
+                        <p>{{ work.content }}</p>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+            <!-- ./Work Process -->
+            {% endif %}
+
+        </div>
+          
     </div>
   </div>
+  
+  
+
 </section>
-<!-- ./Work Process -->
-{% endif %}

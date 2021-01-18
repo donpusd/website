@@ -1,20 +1,36 @@
 <!-- about -->
-<section class="section bg-light-gray">
-  <div class="container">
+<section class="section">
+  <div class="container mb-5">
     <div class="row">
-        <div class="col-lg-10 mx-auto text-center hideme">
-            <h3 class="font-tertiary text-primary">{{ site.data.settings.blurb }}</h3>
+        
+        <div class="col-12 col-md-8 mx-auto hideme">
+            <p class="font-secondary paragraph-lg text-gray my-0">Our Mission</p>
+            <h3 class="font-secondary text-primary mt-0 mb-2"><b>{{ site.data.settings.blurb }}</b></h3>
+            <p class="font-primary paragraph-lg text-dark hideme">{{ site.data.settings.mission }}</p>
+            <a href="/about" class="btn btn-primary btn-lg hideme">Learn More</a>
         </div>
         
-        <div class="col-lg-10 mx-auto text-center hideme">
-            <p class="font-secondary paragraph-lg text-dark hideme">{{ site.data.settings.mission }}</p>
-        </div>
-        
-        <div class="col-lg-10 mx-auto text-center hideme">
-            <a href="/about" class="btn btn-primary hideme">Learn More</a>
+        <div class="col-6 col-md-4 mt-5 mx-auto hideme">
+            <img src="assets/images/vectors/book_hand.png" class="img fluid">
         </div>
           
     </div>
   </div>
+  
+  {% if site.data.settings.services %}
+  <!-- services -->
+    <div class="container mt-3">
+      <div class="row">
+        {% for service in site.data.settings.services %}
+        <div class="col-md-4 mb-4 mb-md-0 hideme">
+              <i class="{{ service.icon }} icon mb-3 d-inline-block" style="color:#f2ce1b;"></i>
+              <h4 class="mb-1"><strong>{{ service.name }}</strong></h4>
+              <p class="font-secondary">{{ service.description }}<p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  <!-- /services -->
+  {% endif %}
+
 </section>
-<!-- /about -->

@@ -28,10 +28,10 @@ hero:
   hero-subtitle: Poway Unified
 
 social:
-- {icon: "ti-facebook", link: "https://www.facebook.com/DiversifyPUSD/"}
-- {icon: "ti-instagram", link: "https://www.instagram.com/Diversifyournarrativepusd/"}
-- {icon: "ti-twitter", link: "https://www.twitter.com/DiversifyPUSD/"}
-- {icon: "ti-email", link: "mailto:hello@donpusd.org"}
+- {icon: "bi-facebook", link: "https://www.facebook.com/DiversifyPUSD/"}
+- {icon: "bi-instagram", link: "https://www.instagram.com/Diversifyournarrativepusd/"}
+- {icon: "bi-twitter", link: "https://www.twitter.com/DiversifyPUSD/"}
+- {icon: "bi-envelope", link: "mailto:hello@donpusd.org"}
 
 #-------------------------------
 # About (Section and Page)
@@ -52,15 +52,15 @@ blurb-btn-name: Join Today!
 # Work Process Section
 work-process:
   - title : "Form Subcommittees"
-    icon : "ti-comments"
+    icon : "bi-chat-dots"
     content : "We have three subcommittees: outreach, curriculum literature, and AP courses. In each committee you get to work on projects firsthand!"
     
   - title : "Work with Schools"
-    icon : "ti-blackboard"
+    icon : "bi-clipboard-check"
     content : "We collaborate with the district, alongside clubs formed at each major PUSD high school. Together, we make an impact."
     
   - title : "Social Media"
-    icon : "ti-instagram"
+    icon : "bi-instagram"
     content : "To maximize our impact and ensure our message of educational equity can be successful, we share and publicize everything we do."
 
 
@@ -108,19 +108,19 @@ services-title: Our Goals
 services:
 - {
     name: Diverse Novels,
-    icon: ti-book,
+    icon: bi-book,
     description: 'Our core goal: we want to bring diverse perspectives to the classroom by incorporating diverse texts, primarily.',
     active: true # Add true to select section
   }
 - {
     name: Student Advocates,
-    icon: ti-pencil,
+    icon: bi-pen,
     description: 'Our club constitutes students from around the district. Our goal is to form the next generation of student activists and advocates.',
     active: true # Add true to select section
   }
 - {
     name: Community Connections,
-    icon: ti-rocket,
+    icon: bi-hand-thumbs-up,
     description: 'We partner with other social organizations, like Black Student Union, to maximize our impacts.',
     active: true # Add true to select section
   }
@@ -131,19 +131,19 @@ asc-title: About School Clubs
 asc:
 - {
     name: Form Communities,
-    icon: ti-hand-open,
+    icon: bi-people,
     description: 'We want to bring the community closer in our goal of creating student activists and diversifying our education. These clubs are a great way for students to bond!',
     active: true # Add true to select section
   }
 - {
     name: Local Events,
-    icon: ti-rss,
+    icon: bi-rss,
     description: 'We host events for the local communities! These can be anything from phonebanking to webinars, and eveyone is welcome! To see upcoming events, go to "Events"',
     active: true # Add true to select section
   }
 - {
     name: Student Morale,
-    icon: ti-face-smile,
+    icon: bi-emoji-smile,
     description: 'Our school clubs are able to focus on the unique and diverse student body of each school! We boost morale on campus and provide a safe space for people to share their thoughts.',
     active: true # Add true to select section
   }
