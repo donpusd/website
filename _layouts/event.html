@@ -2,15 +2,45 @@
 layout: default
 ---
 <script>
-    if (navigator.share) {
-      navigator.share({
-        title: 'web.dev',
-        text: 'Check out web.dev.',
-        url: 'https://web.dev/',
-      })
-        .then(() => console.log('Successful share'))
-        .catch((error) => console.log('Error sharing', error));
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    const text = "{{ page.url | absolute_url }}";
+
+    function cpy() {
+        navigator.clipboard
+            .writeText(text)
+            .then(() => { btn.value = 'Copied' })
+            .catch(err => { btn.value="Copy failed" });
     }
+
+    navigator.permissions
+        .query({ name: "clipboard-write" })
+        .then(status => {
+            console.log(status.state);
+            status.onchange = () => {
+                console.log(status.state);
+            };
+        });
+
+    const shareButton = document.querySelector('.share-button');
+    const shareDialog = document.querySelector('.share-dialog');
+    const closeButton = document.querySelector('.close-button');
+
+    shareButton.addEventListener('click', event => {
+      if (navigator.share) {
+       navigator.share({
+          title: 'WebShare API Demo',
+          url: 'https://codepen.io/ayoisaiah/pen/YbNazJ'
+        }).then(() => {
+          console.log('Thanks for sharing!');
+        })
+        .catch(console.error);
+        } else {
+            shareDialog.classList.add('is-open');
+        }
+    });
 </script>
 
 <!-- page title -->
@@ -26,19 +56,20 @@ layout: default
 </section>
 <!-- /page title -->
 
-<section class="section bg-dark">
+<section class="section">
     
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <a href="/events"><h4><i class="ti-angle-left mr-1"></i>Return to Events</a></h4>
-        <h2 class="font-tertiary mt-2 mb-3 text-white">{{ page.title | escape }}</h2>
-        <h4 class="mb-4 text-white"><span class="text-yellow">{{ page.date | date: "%b %-d, %Y" }}</span> from <span class="text-yellow">{{ page.date | date: "%-I:%M" }} to {{ page.end-time | date: "%-I:%M %p %Z" }}</span></h4>
-        <h4 class="mt-4 text-white">About the Event:</h4>
-        {{ page.description | markdownify | replace: "<p>", "<p class='text-light-gray'>" }}
-        <h5 class="text-white"><b>{{ page.host }}</b></h5>
+        <h3 class="font-tertiary mt-2 mb-3">{{ page.title | escape }}</h3>
+        <h4 class="mb-4"><span class="text-yellow">{{ page.date | date: "%b %-d, %Y" }}</span> from <span class="text-yellow">{{ page.date | date: "%-I:%M" }} to {{ page.end-time | date: "%-I:%M %p %Z" }}</span><a class="share-button ml-2" onclick="cpy()" data-toggle="tooltip" title="Click to Copy Link to Share"><i class="bi-box-arrow-up text-primary"></i></a></h4>
+        <h4 class="mt-4">About the Event:</h4>
+        {{ page.description | markdownify }}
+        <h5 class="text-primary"><b>{{ page.host }}</b></h5>
         <a href="{{ page.event-url }}" target="_blank" class="btn btn-sm btn-primary mt-2 mb-3">Sign Up</a>
       </div>
     </div>
   </div>
 </section>
+

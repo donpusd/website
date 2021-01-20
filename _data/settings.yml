@@ -137,13 +137,13 @@ asc:
   }
 - {
     name: Local Events,
-    icon: bi-rss,
+    icon: bi-broadcast,
     description: 'We host events for the local communities! These can be anything from phonebanking to webinars, and eveyone is welcome! To see upcoming events, go to "Events"',
     active: true # Add true to select section
   }
 - {
     name: Student Morale,
-    icon: bi-emoji-smile,
+    icon: bi-hand-thumbs-up,
     description: 'Our school clubs are able to focus on the unique and diverse student body of each school! We boost morale on campus and provide a safe space for people to share their thoughts.',
     active: true # Add true to select section
   }

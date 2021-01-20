@@ -4,12 +4,23 @@ layout: page
 
 {% include about-school-clubs.html %}
 
-<section class="section bg-gray">
+<section class="section bg-green-gray">
     <div class="container">
-        <h2 class="section-title hideme">Individual School Club Information</h2>
-        {% for club in site.data.club-info.Club %}
-            {% include school-club-info.html %}
-        {% endfor %}
-        <hr class="hideme">
+        <h2 class="font-tertiary mb-auto hideme">Individual School Club Information</h2>
+        
+        <div class="row mt-3">
+            
+            <div class="col-xs-12 col-xl-4 order-xl-last px-3">
+                <p class="font-secondary paragraph-lg text-gray my-0 hideme mt-3"><i class="bi-journal-bookmark icon hideme mr-2" style="color:#f2ce1b; font-size:32px;"></i>Club Info</p>
+                <h4 class="font-secondary text-primary mt-0 mb-2 hideme"><b>Click on the toggle to see information about your school's DON Club!</b></h4>
+            </div>
+            
+            <div class="col-xs-12 col-xl-8 order-xl-first">
+            {% for club in site.data.club-info.Club %}
+                {% include school-club-info.html %}
+            {% endfor %}
+            <hr class="hideme">
+            </div>
+        </div>
     </div>
 </section>

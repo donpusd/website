@@ -1,25 +1,36 @@
-{% if site.data.settings.services %}
-<!-- services -->
+<!-- about -->
 <section class="section">
-  <div class="container">
+  <div class="container mb-5">
     <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title hideme">{{ site.data.settings.asc-title }}</h2>
-        <h4 class="section-title hideme">We are looking for committed high schoolers from WVHS and PHS to create DON clubs at those schools! If you would like to start a club, please reach out to us by clicking <a href="mailto:inbar@donpusd.org">here</a>!</h4>
-      </div>
-      {% for service in site.data.settings.asc %}
-      <div class="col-md-4 mb-4 mb-md-0 hideme">
-        <div class="card h-100 hover-shadow shadow">
-          <div class="card-body {% if service.active %}active-bg-primary{% endif %} text-center px-4 py-5 rounded">
-            <i class="{{ service.icon }} icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4 font-tertiary">{{ service.name }}</h4>
-            <p>{{ service.description }}</p>
-          </div>
+        
+        <div class="col-xs-12 col-md-6 mb-3 x-auto hideme">
+            <img src="assets/images/vectors/club.png" class="img fluid" style="width:100%;">
         </div>
-      </div>
-      {% endfor %}
+        
+        <div class="col-xs-12 col-md-6 mx-auto hideme">
+            <p class="font-secondary paragraph-lg text-gray my-0">About</p>
+            <h3 class="font-secondary text-primary mt-0 mb-2"><b>Engage with DON at your high school!</b></h3>
+            <p class="font-primary paragraph-lg text-dark hideme">We have opened a DON club at each PUSD high school. At the club, you can engage with your local community, host and participate in events, and do other fun and exciting activities!</p>
+            <h4 class="font-secondary text-yellow"><i class="bi-arrow-down icon mr-2 mb-1" style="font-size:24px;"></i><b>See below for more information!</b></h4>
+        </div>
+          
     </div>
   </div>
+  
+  {% if site.data.settings.services %}
+  <!-- services -->
+    <div class="container mt-3">
+      <div class="row">
+        {% for service in site.data.settings.asc %}
+        <div class="col-md-4 mb-4 mb-md-0 hideme">
+              <i class="{{ service.icon }} icon mb-3 d-inline-block" style="color:#f2ce1b;"></i>
+              <h4 class="mb-1"><strong>{{ service.name }}</strong></h4>
+              <p class="font-secondary">{{ service.description }}<p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  <!-- /services -->
+  {% endif %}
+
 </section>
-<!-- /services -->
-{% endif %}

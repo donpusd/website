@@ -3,15 +3,33 @@ layout: page
 title: Blog
 ---
 <!-- blog -->
+<!-- about -->
+    
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 px-2 mb-2 mt-0 hideme">
+                <img src="assets/images/vectors/blog-highlight.png" class="img fluid text-center" style="width: 90%;">
+            </div>
+            
+            <div class="col-xs-12 col-lg-4 px-3">
+                <p class="font-secondary paragraph-lg text-gray mt-3 mb-0 hideme">Blog</p>
+                <h3 class="font-secondary text-primary mt-0 mb-2 hideme"><b>Recent articles and posts</b></h3>
+                <p class="font-primary text-dark hideme">We have a team of writers dedicated to sharing information about our organization through a well-kept blog! Come back to this page frequently to hear about new events, learn about new initiatives, and read engaging op-eds.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section bg-green-gray">
   <div class="container">
+      <i class="bi-newspaper icon mb-2 hideme d-inline-block" style="color:#f2ce1b;"></i>
+      <h3 class="font-secondary text-primary mt-0 mb-4 hideme"><b>Blog Posts</b></h3>
     <div class="row">
       {% for post in site.posts %}
       {% include post.html %}
       {% endfor %}
     </div>
   </div>
-
-
 </section>
 <!-- /blog -->

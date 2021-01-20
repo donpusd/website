@@ -16,11 +16,29 @@ $(document).ready(function(){
 });
 </script>
 
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 px-2 mb-2 mt-0 hideme">
+                <p class="font-secondary paragraph-lg text-gray mt-3 mb-0 hideme">Events</p>
+                <h3 class="font-secondary text-primary mt-0 mb-2 hideme"><b>Our upcoming events</b></h3>
+                <p class="font-primary text-dark hideme">We're always planning and hosting events to engage the community. We host webinars, fundraisers, town-halls, and other fun events — often in collaboration with other incredible organizations!</p>
+            </div>
+            
+            <div class="col-xs-12 col-lg-4 px-3">
+                <img src="assets/images/vectors/calendar.png" class="img fluid text-center" style="width: 90%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section class="section bg-green-gray" id="event-list">
   <div class="container">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Upcoming Events</h2>
+      <div class="col-12">
+          <i class="bi-calendar-week icon mb-2 hideme d-inline-block" style="color:#f2ce1b;"></i>
+          <h3 class="font-secondary text-primary mt-0 mb-4 hideme"><b>Upcoming Events</b></h3>
       </div>
     <div class="row" id="events">
         {% assign curDate = site.time | date: '%s' %}
@@ -42,12 +60,10 @@ $(document).ready(function(){
 
 <section class="section bg-green-gray" id="warning">
     <div class="row my-5">
-        <div class="col-lg-10 mx-auto text-center">
-            <i class="ti-calendar icon mb-5 d-inline-block"></i>
+        <div class="col-lg-10 mx-auto">
+            <i class="bi-calendar-x icon mb-1 d-inline-block" style="font-size:24px;"></i>
             <h4 class="font-tertiary text-black">Currently, we don't have any upcoming events. Stay tuned, however!</h4>
-
         </div>
-      
     </div>
 </section>
 <!-- blog -->

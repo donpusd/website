@@ -1,22 +1,25 @@
-<!-- contact -->
+<!-- about -->
 <section class="section" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
-  <div class="container">
+  <div class="container mb-5">
     <div class="row">
-      <div class="col-12 text-center hideme">
-        <h2 class="section-title">{{ site.data.settings.contact-title }}</h2>
-      </div>
-      
-      <div class="col-12 text-center hideme">
-        <h3 class="mt-0"><b>You can reach out to us through our many platforms! See below for all the links!</b></h3>
-      </div>
-      
-      <div class="col-12 text-center hideme mt-2">
-        {% for social in site.data.settings.social %}
-            <a href="{{ social.link }}" class="btn btn-primary mb-2 mt-2 ml-2 mr-2"><i class="{{ social.icon }}"></i></a>
-        {% endfor %}
-      </div>
-      
+        
+        <div class="col-xs-12 col-md-6 mb-3 x-auto hideme">
+            <img src="assets/images/vectors/contact.png" class="img fluid" style="width:100%;">
+        </div>
+        
+        <div class="col-xs-12 col-md-6 mx-auto hideme">
+            <p class="font-secondary paragraph-lg text-gray my-0">Reach Out</p>
+            <h3 class="font-secondary text-primary mt-0 mb-2"><b>Get in touch!</b></h3>
+            <p class="font-primary paragraph-lg text-dark hideme">If you've got questions, comments, suggestions, or would like to work with us, please reach out to us through our many social platforms. We'll respond ASAP!</p>
+            {% for social in site.data.settings.social %}
+                <a href="{{ social.link }}" class="btn btn-primary btn-xs py-2 px-3 ml-3 mt-0 mb-3"><i class="{{ social.icon }}" style="font-size:24px;"></i></a>
+            {% endfor %}
+            <h4 class="font-secondary text-yellow"><i class="bi-arrow-down icon mr-2 mb-0" style="font-size:24px;"></i><b>See below for FAQs!</b></h4>
+        </div>
+          
+          
+          
     </div>
   </div>
+
 </section>
-<!-- /contact -->
