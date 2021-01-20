@@ -6,6 +6,7 @@ Club:
     school-abb: RBHS
     timing: Every Wednesday During Lunch
     layout: post
+    join-info: To be added.
     club-leaders: Gabby Le & Aditya Mavalankar
     zoom-url: https://us04web.zoom.us/j/3518383292
     zoom-id: 351 838 3292
@@ -17,11 +18,11 @@ Club:
     school-abb: DNHS
     timing: Every Other Wednesday During Lunch
     layout: post
+    join-info: To be added.
     club-leaders: Amoolya Chandrabhatta & Casey Lidstad
-    zoom-url:
+    zoom-url: null
     zoom-id: To be added.
     title: Del Norte High School
-    
   - contact: tamaraalsaied@gmail.com
     box-color: "#d43423"
     zoom-pw: hogwarts
@@ -29,10 +30,23 @@ Club:
     school-abb: MCHS
     timing: Every Other Tuesday @ 3pm After School
     layout: post
+    join-info: To be added.
     club-leaders: Tamara Alsaied & Jessica Malvin
     zoom-url: https://us04web.zoom.us/j/78332943417
     zoom-id: 783 3294 3417
     title: Mount Carmel High School
+  - contact: To be added.
+    box-color: "#1a1c1b"
+    zoom-pw: To be added.
+    text-color: "#dba531"
+    school-abb: WVHS
+    timing: To be added.
+    layout: post
+    join-info: To be added.
+    club-leaders: Courtney Hall & TBA
+    zoom-url: null
+    zoom-id: To be added.
+    title: Westview High School
   - contact: hello@donpusd.org
     box-color: "#515752"
     zoom-pw: Club not open yet!
@@ -40,18 +54,8 @@ Club:
     school-abb: PHS
     timing: Club not open yet!
     layout: post
+    join-info: Club not open yet!
     club-leaders: We're looking for a committed high schooler to open a DON club!
-    zoom-url:
+    zoom-url: null
     zoom-id: Club not open yet!
     title: Poway High School
-  - contact: hello@donpusd.org
-    box-color: "#1a1c1b"
-    zoom-pw: Club not open yet!
-    text-color: "#dba531"
-    school-abb: WVHS
-    timing: Club not open yet!
-    layout: post
-    club-leaders: We're looking for a committed high schooler to open a DON club!
-    zoom-url:
-    zoom-id: Club not open yet!
-    title: Westview High School
