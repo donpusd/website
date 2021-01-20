@@ -1,6 +1,32 @@
 ---
 layout: default
 ---
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    const text = "{{ page.url | absolute_url }}";
+
+    function cpy() {
+        navigator.clipboard
+            .writeText(text)
+            .then(() => { btn.value = 'Copied' })
+            .catch(err => { btn.value="Copy failed" });
+    }
+
+    function shareNav() {
+        navigator.share({
+           title: "{{ page.title }}",
+           text: "Check out this event from DON PUSD!",
+           url: "{{ page.url | absolute_url }}"
+         }).then(() => {
+           console.log('Thanks for sharing!');
+         })
+         .catch(console.error);
+    }
+</script>
+
 <!-- page title -->
 <section class="page-title bg-primary position-relative">
   <div class="container">
@@ -22,7 +48,7 @@ layout: default
         <h2 class="font-tertiary mb-2">{{ page.title | escape }}</h2>
         <h4 class="font-secondary mb-4">{{ page.subtitle | escape }}</h4>
         <h5 class="font-secondary mb-5">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-yellow">{{ page.author }}</span
-            class="text-primary"></h5>
+            class="text-primary"><a class="share-button ml-2" onclick="cpy(); shareNav();" data-toggle="tooltip" title="Click to copy link or share"><i class="bi-box-arrow-up text-primary"></i></a></h4></h5>
         <div class="content">
           <img src="{{ page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4" alt="{{page.title}}">
           {{ content }}
