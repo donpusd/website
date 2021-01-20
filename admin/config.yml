@@ -72,6 +72,7 @@ collections:
               - { label: 'Zoom ID', name: 'zoom-id', widget: 'string', hint: 'It should be formatted like this: 123 456 7890' }
               - { label: 'Zoom URL', name: 'zoom-url', widget: 'string', hint: 'It should have the "https://"', required: false }
               - { label: 'Zoom Password', name: 'zoom-pw', widget: 'string' }
+              - { label: 'Joining Info', name: 'join-info', widget: 'string', hint: 'It should outline the steps needed to join the club. i.e. "Join the Remind by..."' }
   - label: "Leadership"
     name: "leadership"
     editor:

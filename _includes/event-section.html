@@ -24,11 +24,11 @@ $(document).ready(function(){
 
 <section class="section" id="event-list">
   <div class="container">
-      <div class="col-12 text-center hideme">
-        <h2 class="section-title">Upcoming Events</h2>
+      <div class="col-12">
+          <i class="bi-calendar-week icon mb-2 hideme d-inline-block" style="color:#f2ce1b;"></i>
+          <h3 class="font-secondary text-primary mt-0 mb-4 hideme"><b>Upcoming Events</b></h3>
       </div>
     <div class="row" id="events">
-
         {% assign curDate = site.time | date: '%s' %}
         {% assign count = 0 %}
         {% assign maxPosts = 2 %}
