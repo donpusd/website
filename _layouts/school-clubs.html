@@ -15,9 +15,11 @@ layout: page
                 <h4 class="font-secondary text-primary mt-0 mb-2 hideme"><b>Click on the toggle to see information about your school's DON Club!</b></h4>
             </div>
             
-            <div class="col-xs-12 col-xl-8 order-xl-first hideme">
+            <div class="col-xs-12 col-xl-8 order-xl-first">
             {% for club in site.data.club-info.Club %}
+                <div class="hideme">
                 {% include school-club-info.html %}
+                </div>
             {% endfor %}
             <hr class="hideme">
             </div>
