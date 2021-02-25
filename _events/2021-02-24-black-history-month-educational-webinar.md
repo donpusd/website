@@ -3,9 +3,10 @@ layout: event
 title: Black History Month Educational Webinar
 date: 2021-02-27T01:30:24.318Z
 end-time: 2021-02-27T02:30:00.000Z
-event-url: https://us02web.zoom.us/j/89400011876?pwd=L3dIMXN0QXdFMmUzcm15K1FhTGlMdz09
 host: Hosted by BSU x DON
+photo: ""
 image: /assets/uploads/bsuxdon_febwebinar.jpeg
+event-url: https://us02web.zoom.us/j/89400011876?pwd=L3dIMXN0QXdFMmUzcm15K1FhTGlMdz09
 description: >-
   Diversify Our Narrative PUSD and the 5 Black Student Unions (BSUs) of Poway
   Unified are joining forces for a special educational webinar this **Friday,
