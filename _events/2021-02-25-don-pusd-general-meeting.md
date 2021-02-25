@@ -6,7 +6,7 @@ end-time: 2021-03-20T20:00:55.458Z
 event-url: https://www.donpusd.org
 description: >-
   We're hosting a general meeting for ALL members of DON PUSD and the various
-  DON clubs.
+  DON clubs. **Note: the listed time is not yet final.** 
 
 
   **We’ll be discussing our future plans, potential tasks and projects, and new leadership positions and opportunities!**
