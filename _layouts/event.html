@@ -50,6 +50,11 @@ layout: default
         <h4 class="mb-4"><span class="text-yellow">{{ page.date | date: "%b %-d, %Y" }}</span> from <span class="text-yellow">{{ page.date | date: "%-I:%M" }} to {{ page.end-time | date: "%-I:%M %p %Z" }}</span><a class="share-button ml-2" onclick="cpy(); shareNav();" data-toggle="tooltip" title="Click to copy link or share"><i class="bi-box-arrow-up text-primary"></i></a></h4>
         <h4 class="mt-4">About the Event:</h4>
         {{ page.description | markdownify }}
+        
+        {% if page.image %}
+            <img src="{{ page.image }}" style="width:90%;">
+        {% endif %}
+        
         <h5 class="text-primary"><b>{{ page.host }}</b></h5>
         <a href="{{ page.event-url }}" target="_blank" class="btn btn-sm btn-primary mt-2 mb-3">Sign Up</a>
       </div>

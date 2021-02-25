@@ -1,7 +1,7 @@
 # config.yml
 
 backend:
-  name: git-gateway
+  name: test-repo
   branch: netlify
   accept_roles: #optional - accepts all users if left out
     - admin
@@ -47,7 +47,8 @@ collections:
       - { label: 'Start Date and Time', name: 'date', widget: 'datetime', hint: 'The date and time the event starts at' }
       - { label: 'End Date and Time', name: 'end-time', widget: 'datetime', hint: 'The date and time the event ends at' }
       - {label: "Sign-Up URL", name: "event-url", widget: "string", hint: 'The link to the Google Form to sign up. Make sure it is right and has the "https://" at the beginning!'}
-      - {label: "Event Host", name: "host", widget: "string", hint: '(optional) i.e. "Hosted by DON RBHS"', required: false }
+      - { label: "Event Host", name: "host", widget: "string", hint: '(optional) i.e. "Hosted by DON RBHS"', required: false }
+      - { label: 'Photo', name: 'photo', widget: 'image', hint: '(optional) A photo/flyer of the event, if applicable', required: false }
       - { label: 'Event Description', name: 'description', widget: 'markdown', hint: 'A good description of the event. You can have bullets, bold text, etc. using the editor' }
   - label: "Club Info"
     name: "club-info"
