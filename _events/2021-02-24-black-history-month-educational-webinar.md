@@ -19,7 +19,7 @@ description: >-
   We'd love for you to attend! To join, click on the link below. Additionally, below are details to join the Zoom call:
 
 
-  #### ID: 894 0001 1876; Password: BSUDON
+  ##### ID: 894 0001 1876; Password: BSUDON
 
 
   We hope to see you there!
