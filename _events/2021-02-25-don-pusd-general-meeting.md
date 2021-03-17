@@ -10,17 +10,16 @@ description: >-
   DON clubs this **Satruday, March 20th, from 1-2 pm PST!**
 
 
-  We’ll be discussing: (1) what we achieved so far, (2) the status of school clubs, (3) important reorganization and new Committees, and (4) new leadership positions!
+  We’ll be discussing: **(1)** what we achieved so far, **(2)** the status of school clubs, **(3)** important reorganization and new Committees, and **(4)** new leadership positions!
 
 
 
 
-  ###### Zoom Information for the Meeting:
+  #### Zoom Information for the Meeting:
 
 
   > **Meeting ID:** 891 5972 0618; **Passcode:** weekend
 
-  >
 
-  > Click here to join the meeting: <https://us02web.zoom.us/j/89159720618?pwd=enQyOEhmbnZnZVp0RG1sZVI2eG5MQT09>
+  ##### Click here to join the meeting: <https://us02web.zoom.us/j/89159720618?pwd=enQyOEhmbnZnZVp0RG1sZVI2eG5MQT09>
 ---
