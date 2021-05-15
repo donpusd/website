@@ -55,7 +55,11 @@ layout: default
             <img src="{{ page.image }}" style="width:90%;">
         {% endif %}
         
-        <h5 class="text-primary"><b>{{ page.host }}</b></h5>
+
+        {% if page.host %}
+            <h5 class="text-primary"><b>Hosted by: {{ page.host }}</b></h5>
+        {% endif %}
+
         <a href="{{ page.event-url }}" target="_blank" class="btn btn-sm btn-primary mt-2 mb-3">Sign Up</a>
       </div>
     </div>
