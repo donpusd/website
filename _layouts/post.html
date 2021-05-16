@@ -18,7 +18,7 @@ layout: default
     function shareNav() {
         navigator.share({
            title: "{{ page.title }}",
-           text: "Check out this event from DON PUSD!",
+           text: "Check out this blog post from DON PUSD!",
            url: "{{ page.url | absolute_url }}"
          }).then(() => {
            console.log('Thanks for sharing!');
