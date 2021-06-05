@@ -35,4 +35,6 @@ To prepare our organization for a Spring and Summer term of productive, changema
 > * Would like members excited, with big-picture thinking. 
 > * If you enjoy planning and logistics, this Committee is perfect for you!
 
+![Leadership Applications Now Open!](/assets/uploads/leadership-applications-now-open-.png "Leadership Applications Now Open!")
+
 #### *If you would like to apply to become a Committee lead, [click here](https://forms.gle/TtZsSjj19W9p3nbu9). If you are interested in working in a Committee, [click here](https://forms.gle/MGZDDQ97d6n4zghr6).*
